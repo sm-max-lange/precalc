@@ -1,0 +1,459 @@
+1
+Chapter 1
+Tools of Geometry
+1.1:  Points, Lines, and Planes
+1.	Properties of planes, lines, and points
+Also consider:
+•	Describe intersections in a plane
+1.2:  Line Segments and Distance
+1.	Lengths of segments on number lines
+2.	Additive property of length
+3.	Distance formula
+Also consider:
+•	Congruent line segments
+•	Construct a congruent segment
+1.3:  Locating Points and Midpoints
+1.	Midpoints
+2.	Midpoint formula: find the midpoint
+3.	Partition a line segment in a given ratio
+Also consider:
+•	Midpoint formula: find the endpoint
+•	Construct the midpoint or perpendicular bisector of a segment
+1.4:  Angle Measure
+1.	Angle vocabulary
+2.	Angle measures
+3.	Classify angles
+Also consider:
+•	Find lengths and measures of bisected line segments and angles
+•	Construct a congruent angle
+•	Construct an angle bisector
+1.5:  Angle Relationships
+1.	Identify complementary, supplementary, vertical, adjacent, and congruent angles
+2.	Find measures of complementary, supplementary, vertical, and adjacent angles
+3.	Angle diagrams: solve for the variable
+Also consider:
+•	Construct a perpendicular line
+1.6:  Two-Dimensional Figures
+1.	Polygon vocabulary
+2.	Perimeter and area of rectangles and squares
+3.	Area and circumference of circles
+Also consider:
+•	Area and perimeter in the coordinate plane I
+•	Area and perimeter in the coordinate plane II
+1.7:  Transformations in the Plane
+1.	Reflection, rotation, and translation
+2.	Translations: find the coordinates
+3.	Reflections: find the coordinates
+4.	Rotations: find the coordinates
+1.8:  Three-Dimensional Figures
+1.	Parts of three-dimensional figures
+2.	Three-dimensional figure vocabulary
+1.9:  Two-Dimensional Representations of Three-Dimensional Figures
+1.	Front, side, and top views of irregular figures
+2.	Nets of three-dimensional figures
+1.10:  Precision and Accuracy
+1.	Precision
+2.	Greatest possible error
+3.	Percent error
+Also consider:
+•	Percent error: area and volume
+Checkpoint opportunity
+1.	Checkpoint: Definitions of geometric objects
+2.	Checkpoint: Partition a line segment
+3.	Checkpoint: Area and perimeter in the coordinate plane
+2
+Chapter 2
+Logical Arguments and Line Relationships
+2.1:  Conjectures and Counterexamples
+1.	Number sequences
+2.	Shape patterns
+3.	Counterexamples
+Also consider:
+•	Make predictions with scatter plots
+2.2:  Statements, Conditionals, and Biconditionals
+1.	Conditionals
+2.	Converses, inverses, and contrapositives
+3.	Biconditionals
+4.	Truth values
+Also consider:
+•	Negations
+•	Identify hypotheses and conclusions
+•	Truth tables
+2.3:  Deductive Reasoning
+2.4:  Writing Proofs
+1.	Properties of equality
+2.	Solve linear equations: complete the solution
+2.5:  Proving Segment Relationships
+2.6:  Proving Angle Relationships
+1.	Proofs involving angles
+2.7:  Parallel Lines and Transversals
+1.	Transversals: name angle pairs
+2.	Transversals of parallel lines: find angle measures
+3.	Transversals of parallel lines: solve for x
+Also consider:
+•	Identify parallel, intersecting, and skew lines and planes
+•	Transversals of parallel lines: prove angle relationships
+2.8:  Slope and Equations of Lines
+1.	Slopes of lines
+2.	Equations of lines
+3.	Slopes of parallel and perpendicular lines
+4.	Equations of parallel and perpendicular lines
+Also consider:
+•	Graph a linear equation
+2.9:  Proving Lines Parallel
+1.	Transversals: prove lines are parallel
+Also consider:
+•	Construct parallel lines
+2.10:  Perpendiculars and Distance
+1.	Find the distance between a point and a line
+2.	Find the distance between two parallel lines
+3
+Chapter 3
+Rigid Transformations and Symmetry
+3.1:  Reflections
+1.	Reflections: graph the image
+3.2:  Translations
+1.	Translations: graph the image
+2.	Translations: write the rule
+3.3:  Rotations
+1.	Rotate polygons about a point
+2.	Rotations: graph the image
+3.	Reflections and rotations: write the rule
+3.4:  Compositions of Transformations
+1.	Glide reflections: graph the image
+2.	Sequences of congruence transformations: graph the image
+3.	Sequences of congruence transformations: find the rules
+Also consider:
+•	Congruence transformations: mixed review
+3.5:  Symmetry
+1.	Count lines of symmetry
+2.	Rotational symmetry
+3.	Transformations that carry a polygon onto itself
+Also consider:
+•	Line symmetry (28)
+•	Draw lines of symmetry
+Checkpoint opportunity
+1.	Checkpoint: Congruence transformations
+4
+Chapter 4
+Triangles and Congruence
+4.1:  Angles of Triangles
+1.	Triangle Angle-Sum Theorem
+2.	Exterior Angle Theorem
+3.	Proofs involving triangles I
+4.2:  Congruent Triangles
+1.	Congruence statements and corresponding parts
+2.	Solve problems involving corresponding parts
+4.3:  Proving Triangles Congruent - SSS, SAS
+1.	SSS and SAS Theorems
+2.	Proving triangles congruent by SSS and SAS
+3.	SSS Theorem in the coordinate plane
+4.4:  Proving Triangles Congruent - ASA, AAS
+1.	ASA and AAS Theorems
+2.	Proving triangles congruent by ASA and AAS
+Also consider:
+•	SSS, SAS, ASA, and AAS Theorems
+•	Proving triangles congruent by SSS, SAS, ASA, and AAS
+•	Proofs involving corresponding parts of congruent triangles
+4.5:  Proving Right Triangles Congruent
+1.	Hypotenuse-Leg Theorem
+4.6:  Isosceles and Equilateral Triangles
+1.	Congruency in isosceles and equilateral triangles
+2.	Proofs involving isosceles triangles
+4.7:  Triangles and Coordinate Proof
+1.	Classify triangles on the coordinate plane: justify your answer
+Checkpoint opportunity
+Chapters 1-4
+1.	Checkpoint: Rigid motion and congruence
+5
+Chapter 5
+Relationships in Triangles
+5.1:  Bisectors of Triangles
+1.	Perpendicular Bisector Theorem
+2.	Angle bisectors
+Also consider:
+•	Construct the circumcenter or incenter of a triangle
+5.2:  Medians and Altitudes of Triangles
+1.	Identify medians, altitudes, angle bisectors, and perpendicular bisectors
+2.	Find the centroid of a triangle
+Also consider:
+•	Construct the centroid or orthocenter of a triangle
+5.3:  Inequalities in One Triangle
+1.	Exterior Angle Inequality
+2.	Angle-side relationships in triangles
+5.4:  Indirect Proof
+5.5:  The Triangle Inequality
+1.	Triangle Inequality Theorem
+5.6:  Inequalities in Two Triangles
+Checkpoint opportunity
+Chapters 1-5
+1.	Checkpoint: Line and angle theorems
+6
+Chapter 6
+Quadrilaterals
+6.1:  Angles of Polygons
+1.	Interior angles of polygons
+2.	Exterior angles of polygons
+3.	Review: interior and exterior angles of polygons
+6.2:  Parallelograms
+1.	Properties of parallelograms
+Also consider:
+•	Find missing angles in quadrilaterals
+6.3:  Tests for Parallelograms
+1.	Proving a quadrilateral is a parallelogram
+6.4:  Special Parallelograms: Rectangles
+1.	Properties of rectangles
+6.5:  Special Parallelograms: Rhombi, Squares
+1.	Properties of rhombuses and squares
+Also consider:
+•	Graph quadrilaterals
+6.6:  Trapezoids and Kites
+1.	Properties of trapezoids
+2.	Properties of kites
+3.	Classify quadrilaterals on the coordinate plane: justify your answer
+Also consider:
+•	Review: properties of quadrilaterals
+•	Proofs involving triangles and quadrilaterals
+•	Proofs involving quadrilaterals
+•	Classify quadrilaterals I
+•	Classify quadrilaterals II
+Checkpoint opportunity
+1.	Checkpoint: Parallelogram theorems
+7
+Chapter 7
+Similarity
+7.1:  Dilations
+1.	Dilations: find the scale factor
+2.	Dilations: graph the image
+3.	Dilations: find the coordinates
+Also consider:
+•	Dilations: find the scale factor and center of the dilation
+•	Dilations: find length, perimeter, and area
+•	Dilations and parallel lines
+7.2:  Similar Polygons
+1.	Similarity statements
+2.	Side lengths and angle measures in similar figures
+3.	Perimeters of similar figures
+Also consider:
+•	Identify similar figures
+•	Ratios in similar figures
+7.3:  Similar Triangles: AA Similarity
+1.	Angle-angle criterion for similar triangles
+2.	Similar triangles and indirect measurement
+7.4:  Similar Triangles: SSS and SAS Similarity
+1.	Similarity rules for triangles
+2.	Prove similarity statements
+Also consider:
+•	Similar triangles and similarity transformations
+•	Prove proportions or angle congruences using similarity
+7.5:  Parallel Lines and Proportional Parts
+1.	Triangle Proportionality Theorem
+2.	Midsegments of triangles (18)
+3.	Proofs involving triangles II
+7.6:  Parts of Similar Triangles
+Checkpoint opportunity
+Chapter 7
+1.	Checkpoint: Dilations
+2.	Checkpoint: Similarity transformations
+Chapters 1-7
+3.	Checkpoint: Transformations in the plane
+4.	Checkpoint: Triangle theorems
+5.	Checkpoint: Parallel and perpendicular lines
+8
+Chapter 8
+Right Triangles and Trigonometry
+8.1:  Geometric Mean
+1.	Similarity and altitudes in right triangles
+Also consider:
+•	Proofs involving similarity in right triangles
+8.2:  The Pythagorean Theorem and Its Converse
+1.	Pythagorean theorem
+2.	Converse of the Pythagorean theorem
+3.	Pythagorean Inequality Theorems
+Also consider:
+•	Prove the Pythagorean theorem
+•	Distance to the origin in three dimensions
+8.3:  Special Right Triangles
+1.	Special right triangles
+8.4:  Trigonometry
+1.	Trigonometric ratios: sin, cos, and tan
+2.	Trigonometric ratios with radicals: sin, cos, and tan
+3.	Trigonometric ratios: find a side length
+4.	Trigonometric ratios: find an angle measure
+Also consider:
+•	Find trigonometric functions of special angles
+•	Find trigonometric functions using a calculator
+•	Inverses of trigonometric functions
+•	Trigonometric ratios in similar right triangles
+•	Sine and cosine of complementary angles
+•	Trigonometric ratios: csc, sec, and cot
+8.5:  Angles of Elevation and Depression
+1.	Solve a right triangle
+8.6:  The Law of Sines
+1.	Area of a triangle: sine formula
+2.	Law of Sines
+Also consider:
+•	Area of a triangle: Law of Sines
+8.7:  The Law of Cosines
+1.	Law of Cosines
+2.	Solve a triangle
+Checkpoint opportunity
+Chapter 8
+1.	Checkpoint: Right triangle trigonometry
+2.	Checkpoint: Laws of Sines and Cosines
+Chapters 1-8
+3.	Checkpoint: Triangle similarity and congruence
+9
+Chapter 9
+Circles
+9.1:  Circles and Circumference
+1.	Parts of a circle: radii, diameters, and chords
+2.	Circumference of circles
+Also consider:
+•	Similarity of circles
+9.2:  Measuring Angles and Arcs
+1.	Central angles and arc measures
+2.	Arc length
+3.	Radians and arc length
+Also consider:
+•	Parts of a circle
+•	Convert between radians and degrees
+9.3:  Arcs and Chords
+1.	Arcs and chords
+9.4:  Inscribed Angles
+1.	Inscribed angles
+2.	Angles in inscribed right triangles
+3.	Angles in inscribed quadrilaterals I
+Also consider:
+•	Angles in inscribed quadrilaterals II
+9.5:  Tangents
+1.	Tangent lines
+2.	Construct a tangent line to a circle
+3.	Perimeter of polygons with an inscribed circle
+Also consider:
+•	Construct the inscribed or circumscribed circle of a triangle
+•	Construct an equilateral triangle inscribed in a circle
+•	Construct a square inscribed in a circle
+•	Construct a regular hexagon inscribed in a circle
+9.6:  Secants, Tangents, and Angle Measures
+1.	Angles formed by chords, secants, and tangents
+Also consider:
+•	Segments formed by chords, secants, and tangents
+9.7:  Equations of Circles
+1.	Write equations of circles in standard form from graphs
+2.	Write equations of circles in standard form using properties
+3.	Graph circles from equations in general form
+Also consider:
+•	Determine if a point lies on a circle
+•	Convert equations of circles from general to standard form
+•	Solve a system of linear and quadratic equations: circles
+9.8:  Equations of Parabolas
+1.	Write equations of parabolas in vertex form using properties
+2.	Graph parabolas
+Also consider:
+•	Find the focus or directrix of a parabola
+•	Write equations of parabolas in vertex form from graphs
+•	Find properties of a parabola from equations in general form
+Checkpoint opportunity
+Chapter 9
+1.	Checkpoint: Prove circles are similar
+2.	Checkpoint: Angles and lines in circles
+3.	Checkpoint: Inscribed and circumscribed circles
+4.	Checkpoint: Equations of circles
+5.	Checkpoint: Equations of parabolas
+Chapters 1-9
+6.	Checkpoint: Geometric constructions
+7.	Checkpoint: Coordinate proofs
+10
+Chapter 10
+Extending Area
+10.1:  Areas of Parallelograms and Triangles
+1.	Area of parallelograms and triangles
+Also consider:
+•	Understanding area of a parallelogram
+•	Understanding area of a triangle
+•	Heron's formula
+10.2:  Areas of Trapezoids, Rhombi, and Kites
+1.	Area of trapezoids
+2.	Area of rhombuses
+Also consider:
+•	Understanding area of a trapezoid
+10.3:  Areas of Circles and Sectors
+1.	Area of circles
+2.	Area of sectors
+Also consider:
+•	Understand arc length and sector area of a circle
+10.4:  Areas of Regular Polygons and Composite Figures
+1.	Area of regular polygons
+2.	Area of compound figures
+Also consider:
+•	Area between two shapes
+10.5:  Area and Nonrigid Transformations
+1.	Areas of similar figures
+2.	Perimeter and area: changes in scale
+Also consider:
+•	Area and perimeter of similar figures
+10.6:  Surface Area
+1.	Surface area of prisms and cylinders
+2.	Surface area of pyramids and cones
+Checkpoint opportunity
+Chapters 1-10
+1.	Checkpoint: Arc length and area of sectors
+11
+Chapter 11
+Extending Volume
+11.1:  Cross Sections and Solids of Revolution
+1.	Cross sections of three-dimensional figures
+2.	Solids of revolution
+11.2:  Volumes of Prisms and Cylinders
+1.	Volume of prisms and cylinders
+2.	Volume of compound figures
+11.3:  Volumes of Pyramids and Cones
+1.	Volume of pyramids and cones
+11.4:  Spheres
+1.	Surface area of spheres
+2.	Volume of spheres
+11.5:  Spherical Geometry
+11.6:  Volume and Nonrigid Transformations
+1.	Similar solids: find the missing length
+2.	Surface area and volume of similar solids
+11.7:  Applying Measurements
+1.	Calculate density, mass, and volume
+Checkpoint opportunity
+Chapter 11
+1.	Checkpoint: Cross sections and solids of revolution
+2.	Checkpoint: Volume
+3.	Checkpoint: Density
+Chapters 1-11
+4.	Checkpoint: Geometric modeling and design
+12
+Chapter 12
+Probability
+12.1:  Representing Sample Spaces
+1.	Outcomes of compound events
+2.	Counting principle
+12.2:  Probability and Counting
+1.	Probability of simple events and opposite events
+12.3:  Probability with Permutations and Combinations
+1.	Permutations
+2.	Permutation and combination notation
+3.	Find probabilities using combinations and permutations
+12.4:  Geometric Probability
+1.	Geometric probability
+12.5:  Probability and the Multiplication Rule
+1.	Identify independent and dependent events
+2.	Probability of independent and dependent events (15)
+3.	Identify independent events
+12.6:  Probability and the Addition Rule
+1.	Probability of mutually exclusive events and overlapping events
+2.	Find probabilities using the addition rule
+12.7:  Conditional Probability
+1.	Find conditional probabilities
+2.	Independence and conditional probability
+Also consider:
+•	Probability: mixed review
+12.8:  Two-Way Frequency Tables
+1.	Find probabilities using two-way frequency tables
+2.	Find conditional probabilities using two-way frequency tables
+Also consider:
+•	Create relative frequency tables

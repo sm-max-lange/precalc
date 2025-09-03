@@ -1,0 +1,11 @@
+p.rubric {
+    
+    border-bottom: 1.5px solid;
+    text-decoration: b;
+    font-weight: bold;
+    font-size: 1.25rem !important;
+}
+
+img.drawio{
+  background-color: white; 
+}

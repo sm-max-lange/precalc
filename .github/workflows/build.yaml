@@ -1,0 +1,59 @@
+name: Sphinx Make HTML
+run-name: ${{ github.actor }} is building the HTML
+on: push
+jobs:
+  Install-Compile-Commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instaling drawio
+        timeout-minutes: 3
+        run: |
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          sudo chmod -R 777 /run/user/1001
+          sudo snap install drawio
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        
+      - name: Prepare Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+          
+      - name: Install Sphinx and Packages
+        run: |
+          pip install sphinx
+          pip install piccolo_theme
+          pip install sphinxcontrib-drawio
+      - name: Build HTML
+        run: |
+          make clean
+          make html
+            
+      - name: Commit files
+        run: |
+          git config --local user.name actions-user
+          git config --local user.email "actions@github.com"
+          if ! git diff --exit-code; then
+              git add -A
+              git commit -am "Automatic Sphinx build on $(date)"
+              git push -f origin main
+          fi
+        
+      - name: Install Latex
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y latexmk
+          sudo apt-get install tex-gyre texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra latexmk
+      
+      - name: Build PDF
+        run: make latexpdf
+        
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_ENV
+        
+      - name: Upload PDF to Release
+        uses: ncipollo/release-action@v1.13.0
+        with:
+          tag: ${{ env.NOW }} 
+          commit: "main"
+          artifacts: "_build/latex/a2notes.pdf"
