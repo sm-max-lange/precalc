@@ -10,4 +10,4 @@ Chapter 1: Linear Functions and Rates of Change
 * y = Output
 * f(x) = output = y
 
-This is just a tets
+This is just a test
