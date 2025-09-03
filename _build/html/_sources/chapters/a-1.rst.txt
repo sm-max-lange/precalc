@@ -1,0 +1,13 @@
+Chapters 1, 2, 3
+============================
+
+Chapter 1: Linear Functions and Rates of Change
+----------------------------------------------------
+
+.. rubric:: Input/Output
+
+* x = Input
+* y = Output
+* f(x) = output = y
+
+This is just a test
