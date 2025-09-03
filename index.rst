@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Math Notes
+Precalc Study Guides
 ==========================================
 
-Late...
+Created by Maximilian Lange
 
 .. rubric:: Useful resourses
 
-* `McGraw Hill <https://my.mheducation.com/secure/student/urn:com.mheducation.openlearning:enterprise.identity.organization:prod.global:organization:c5fbe881-2554-4a83-8d5d-6d58df5b68d6/home>`_
+* `Wiley Plus <https://education.wiley.com/ngonboard/index.html#/StudentDashboard>`_
 
 
 .. rubric:: TODO List
@@ -20,7 +20,7 @@ Late...
 
 .. toctree::
    :maxdepth: 2
-   :caption: Year 1:
+   :caption: Semester 1:
    :glob:
    :hidden:
 

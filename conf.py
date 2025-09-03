@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Algebra 2 Notes'
+project = 'Precalc Notes'
 copyright = '2025, Max Lange'
 author = 'Max Lange'
 
