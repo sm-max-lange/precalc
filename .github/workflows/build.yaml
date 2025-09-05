@@ -56,4 +56,4 @@ jobs:
         with:
           tag: ${{ env.NOW }} 
           commit: "main"
-          artifacts: "_build/latex/a2notes.pdf"
+          artifacts: "_build/latex/precalcnotes.pdf"
