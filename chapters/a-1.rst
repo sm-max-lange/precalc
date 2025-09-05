@@ -1,13 +1,21 @@
 Chapters 1, 2, 3
 ============================
 
-Chapter 1: Linear Functions and Rates of Change
-----------------------------------------------------
+Rates of change
+---------------------------------------------
 
-.. rubric:: Input/Output
+.. rubric:: Information
 
-* x = Input
-* y = Output
-* f(x) = output = y
+| 
+| Rates of change is how much a function increases over a period of time.
+| 
+| Liner functions always have constant rate of change
+| Can be described as :math:`\frac{rise}{run}`
 
-This is just a test
+
+.. rubric:: Calculating between points
+
+.. math::
+
+    \frac{rise}{run} = \frac{y_{1} - y_{2}}{x_{1} - x_{2}}
+
