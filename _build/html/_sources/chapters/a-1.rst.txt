@@ -190,5 +190,79 @@ Composite
 Concavity
 -----------
 
-| Concave up - Like a cup shape \_/
+| Concave up - Like a cup shape; opens upward
+| Concave down - Like a arc shape; opens downward
+| Inflection point where the concavity changes
+
+.. drawio-image:: images/concavity.drawio
+
+Rate of change for cocave up is incressing
+
+
+Quaratics
+---------------
+
+| A quaratic is any polynomial with a degree of two
+| The vertex is ethier the min or max
+| The axis of symmetry is a vertical line which goes though the middle
+
+.. image:: imges/quaratic.png
+
+.. rubric:: Standard Form
+
+.. math:: 
+
+  f(x) = ax^2 + bx + c
+
+.. rubric:: Factored Form
+
+.. math:: 
+
+  f(x) = a(x-r)(x-s)
+
+x and r are zeros
+
+.. rubric:: Vertex Form
+
+.. math:: 
+
+  f(x) = a(x-h)^2+k
+
+| k - y cord of vertex
+| h - x coprd of vertex
+
+
+.. rubic:: Forumlar to find axis of symmetry
+
+.. math::
+
+  \frac{-b}{2a}
+
+The number values must come from standard form
+
+
+.. rubic:: Forumlar to find discriminant
+
+.. math::
+
+  b^2 - 4ac
+
+The number values must come from standard form
+
+If it is negitive, no real solitions. If it is 0, one real solition. If it is positive, two real solitions.
+
+
+.. rubic:: Quaratic Forumla
+
+.. math::
+
+  \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+
+The number values must come from standard form.
+
+This forumlar returns the zeros.
+
+
+
+
 
