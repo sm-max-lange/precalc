@@ -232,7 +232,7 @@ x and r are zeros
 | h - x coprd of vertex
 
 
-.. rubic:: Forumlar to find axis of symmetry
+.. rubric:: Forumlar to find axis of symmetry
 
 .. math::
 
@@ -241,7 +241,7 @@ x and r are zeros
 The number values must come from standard form
 
 
-.. rubic:: Forumlar to find discriminant
+.. rubric:: Forumlar to find discriminant
 
 .. math::
 
@@ -249,10 +249,10 @@ The number values must come from standard form
 
 The number values must come from standard form
 
-If it is negitive, no real solitions. If it is 0, one real solition. If it is positive, two real solitions.
+If it is negative, no real solutions. If it is 0, one real solution. If it is positive, two real solutions.
 
 
-.. rubic:: Quaratic Forumla
+.. rubric:: Quadratic Formula
 
 .. math::
 
