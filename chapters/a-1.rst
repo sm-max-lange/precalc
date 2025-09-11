@@ -199,14 +199,14 @@ Concavity
 Rate of change for cocave up is incressing
 
 
-Quaratics
+Quadratics
 ---------------
 
 | A quaratic is any polynomial with a degree of two
 | The vertex is ethier the min or max
 | The axis of symmetry is a vertical line which goes though the middle
 
-.. image:: imges/quaratic.png
+.. image:: images/quadratic.png
 
 .. rubric:: Standard Form
 
