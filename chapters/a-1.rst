@@ -19,3 +19,93 @@ Rates of change
 
     \frac{rise}{run} = \frac{y_{1} - y_{2}}{x_{1} - x_{2}}
 
+
+Input / Output and Domain and Range
+-----------------------------------------
+
+| A **function** is a where an input collates to an output. One input must have only one output. Often written in f(x) where x is the input and f(x) is the output.
+| The **domain** of a function are all valid input values.
+| The **range** of a function are all reachable outputs.
+
+.. note:: 
+
+    When a variable is stated to be a function of another variable it is the output. For example cost is a function of price would mean :math:`cost = f(price)`
+
+.. rubric:: Evaluating functions
+
+Just plug in the values.
+
+.. math::
+
+    f(x) &= 8x + 2 \\
+    f(7) &= 8 \cdot 7 + 2 \\ 
+    f(7) &= 58
+
+.. rubric:: Testing functions by table
+
+A function can only have one input per output.
+
+.. list-table::
+    :header-rows: 1
+
+    * - x
+      - y
+
+    * - 1
+      - 4
+
+    * - 7
+      - 2
+
+    * - 1
+      - 6
+
+
+Not a function due to having two values for one.
+
+
+.. rubric:: Testing functions on a graph
+
+By utilizing the vertical line test we can is if its a function.
+
+.. drawio:: images/not-a-function.drawio
+
+.. rubric:: Finding dormain Examples
+
+.. math::
+
+  f(x) = \sqrt{x-5}
+
+By seeing that anything below 5 will make this invalid we can say the domain is :math:`x \ge 5`
+
+.. math::
+
+  f(x) = \frac{1}{x-5}
+
+By seeing that 5 results in a divison by zero: :math:`x \neq 5`
+
+
+.. math::
+
+  f(x) = \frac{1}{\sqrt{x-5}}
+
+By seeing that anything below 5 will make this invalid and by seeing that 5 results in a divison by zero: :math:`x > 5`
+
+
+
+
+Piecewise
+-----------------------------------------
+
+| A **piecewise** function uses a diffrent forumular for diffrent dormain.
+
+
+.. image:: images/piecewise.png
+
+
+.. math::
+
+  &= -\frac{1}{2} x + 7 \; x \le 3 \\
+  &= 2 \; 3 < x \le 2 \\
+  &= -2x + 17 \; x > 5 
+
