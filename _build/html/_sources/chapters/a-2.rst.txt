@@ -1,0 +1,37 @@
+Transformations (Chapter 6)
+============================
+
+Parent Functions
+---------------------------------------------
+
+.. rubric:: Linear
+
+Formula:
+
+.. math::
+
+    y = x
+
+.. image:: images/basic-linear.excalidraw.png
+
+
+.. rubric:: Square / Quadratic
+
+Formula:
+
+.. math::
+
+    y = x^2
+
+.. image:: images/basic-quadratic.excalidraw.png
+
+.. rubric:: Square Root
+
+
+Formula:
+
+.. math::
+
+    y = \sqrt(x)
+
+
