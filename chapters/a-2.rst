@@ -326,11 +326,11 @@ Order
 Order maters!!!
 
 
-1. Horizontal stretch or compression
-1. Horizontal shift
-1. :math:`(|x|)`
-1. :math:`|f(x)|`
-1. Vertical stretch or compression
+#. Horizontal stretch or compression
+#. Horizontal shift
+#. :math:`(|x|)`
+#. :math:`|f(x)|`
+#. Vertical stretch or compression
 
 .. rubric:: Example
 
