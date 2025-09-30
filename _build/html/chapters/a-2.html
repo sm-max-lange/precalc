@@ -232,10 +232,10 @@ y &amp;= sqrt(1-x^2)\]</div>
 <p class="rubric">Semicircle</p>
 <p>Formula:</p>
 <div class="math notranslate nohighlight">
-\[r^2 &amp;= x^2 + y^2
-y &amp;= sqrt(r^2-x^2)
-y &amp;= sqrt(a-x^2)
-y &amp;= sqrt(1-x^2)\]</div>
+\[\begin{split}r^2 &amp;= x^2 + y^2 \\
+y &amp;= \sqrt(r^2-x^2) \\
+y &amp;= \sqrt(a-x^2) \\
+y &amp;= \sqrt(1-x^2)\end{split}\]</div>
 <img alt="../_images/basic-semi-circle.png" src="../_images/basic-semi-circle.png" />
 <div class="math notranslate nohighlight">
 \[\textnormal{Domain: } [-1, 1]
@@ -243,13 +243,93 @@ y &amp;= sqrt(1-x^2)\]</div>
 <p class="rubric">Hyperbola</p>
 <p>Formula:</p>
 <div class="math notranslate nohighlight">
-\[c^2 &amp;= x^2 - y^2
-y &amp;= sqrt(x^2-c^2)
-y &amp;= sqrt(x^2-a)\]</div>
+\[\begin{split}c^2 &amp;= x^2 - y^2 \\
+y &amp;= \sqrt(x^2-c^2) \\
+y &amp;= \sqrt(x^2-a)\end{split}\]</div>
 <img alt="../_images/basic-hyperbola.png" src="../_images/basic-hyperbola.png" />
 <div class="math notranslate nohighlight">
 \[\textnormal{Domain: } (-\infty, -1] U [1, \infty)
 \textnormal{Range: } (0, \infty)\]</div>
+</section>
+<section id="shifts">
+<h2>Shifts<a class="headerlink" href="#shifts" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">A <strong>horizontal shift</strong> is when the input of a function (x) is modified. This shifts the function to the left. For example <span class="math notranslate nohighlight">\(f(x-3)\)</span> will shift the function 3 to the right.</div>
+<div class="line">A <strong>vertical shift</strong> is when the output of a function (y) is modified. This shifts the function up. For example <span class="math notranslate nohighlight">\(f(x) + 3\)</span> will shift the function 3 up.</div>
+</div>
+<p class="rubric">Effects on Domain and Range</p>
+<p>A horizontal shift will affect the domain while a vertical shift will affect the range.</p>
+<p class="rubric">Example of horizontal shift</p>
+<div class="math notranslate nohighlight">
+\[y = \frac{1}{(x-2)^2}\]</div>
+<p>Shifts the function two to the right. Domain becomes :math:<a href="#id1"><span class="problematic" id="id2">`</span></a>(-infty, 2) U (2, infty) `</p>
+<p class="rubric">Example of vertical shift</p>
+<div class="math notranslate nohighlight">
+\[y = \frac{1}{x^2} + 2\]</div>
+<p>Shifts the function two up. Range becomes :math:<a href="#id3"><span class="problematic" id="id4">`</span></a>(2, infty) `</p>
+</section>
+<section id="reflections">
+<h2>Reflections<a class="headerlink" href="#reflections" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">To reflect across the <strong>x-axis</strong> multiply the output by -l, example: <span class="math notranslate nohighlight">\(-g(x)\)</span></div>
+<div class="line">To reflect across the <strong>y-axis</strong> multiply the input by -l, example: <span class="math notranslate nohighlight">\(g(-x)\)</span></div>
+<div class="line">An <strong>even function</strong> can be reflected around the y-axis without changing.</div>
+<div class="line">An <strong>odd function</strong> can be reflected around the origin without changing.</div>
+</div>
+<p class="rubric">Absolute Value</p>
+<div class="line-block">
+<div class="line">To mirror quadrants i and iv into ii and iii (mirror across y), place the input in absolute value;</div>
+<div class="line">To reflect quadrants iii and iv into i and ii (mirror across x), place the output in absolute value;</div>
+</div>
+<img alt="../_images/abs-trans.png" src="../_images/abs-trans.png" />
+</section>
+<section id="even-and-odd">
+<h2>Even and odd<a class="headerlink" href="#even-and-odd" title="Link to this heading">¶</a></h2>
+<p>To find if function even or odd, plug in -x into the function.</p>
+<div class="line-block">
+<div class="line">If is is an even function: <span class="math notranslate nohighlight">\(f(-x) = f(x)\)</span></div>
+<div class="line">If is is an odd function: <span class="math notranslate nohighlight">\(f(-x) = -f(x)\)</span></div>
+</div>
+<p>Example of odd function (<span class="math notranslate nohighlight">\(g(x) = \frac{1}{x}\)</span>):</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}g(-x) &amp;= \frac{1}{-x} \\
+g(-x) &amp;= - \frac{1}{x} \\
+g(-x) &amp;= -g(x)\end{split}\]</div>
+<p>Example of even (<span class="math notranslate nohighlight">\(g(x) = x^2\)</span>):</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}g(-x) &amp;= (-x)^2 \\
+g(-x) &amp;= x^2 \\
+g(-x) &amp;= g(x)\end{split}\]</div>
+</section>
+<section id="stretch-and-compress">
+<h2>Stretch and Compress<a class="headerlink" href="#stretch-and-compress" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">A <strong>vertical stretch</strong> results when the output of a function is multiplied by a factor greater than than one, for example <span class="math notranslate nohighlight">\(a \cdot f(x)\)</span> when <span class="math notranslate nohighlight">\(a &gt; 1\)</span>.</div>
+<div class="line">A <strong>vertical compression</strong> results when the output of a function is multiplied by a factor less than one, for example <span class="math notranslate nohighlight">\(a \cdot f(x)\)</span> when <span class="math notranslate nohighlight">\(0 &lt; a &lt; 1\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line">A <strong>horizontal stretch</strong> results when the input of a function is multiplied by a factor less than one, for example <span class="math notranslate nohighlight">\(f(ax)\)</span> when <span class="math notranslate nohighlight">\(0 &lt; a &lt; 1\)</span>.</div>
+<div class="line">A <strong>horizontal compression</strong> results when the input of a function is multiplied by a factor greater than one, for example <span class="math notranslate nohighlight">\(f(ax)\)</span> when <span class="math notranslate nohighlight">\(a &gt; 1\)</span>.</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In vertical compression/stretch the function is stretch/compressed by a factor of <span class="math notranslate nohighlight">\(\frac{1}{a}\)</span></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When a is negitive, use <span class="math notranslate nohighlight">\(|a|\)</span> for stretching/compression</p>
+</div>
+<p class="rubric">Examples</p>
+</section>
+<section id="order">
+<h2>Order<a class="headerlink" href="#order" title="Link to this heading">¶</a></h2>
+<p>Order maters!!!</p>
+<p>1. Horizontal stretch or compression
+1. Horizontal shift
+1. <span class="math notranslate nohighlight">\((|x|)\)</span>
+1. <span class="math notranslate nohighlight">\(|f(x)|\)</span>
+1. Vertical stretch or compression</p>
+<p class="rubric">Example</p>
 </section>
 </section>
 
@@ -269,6 +349,11 @@ y &amp;= sqrt(x^2-a)\]</div>
                 <ul>
 <li><a class="reference internal" href="#">Transformations (Chapter 6)</a><ul>
 <li><a class="reference internal" href="#parent-functions">Parent Functions</a></li>
+<li><a class="reference internal" href="#shifts">Shifts</a></li>
+<li><a class="reference internal" href="#reflections">Reflections</a></li>
+<li><a class="reference internal" href="#even-and-odd">Even and odd</a></li>
+<li><a class="reference internal" href="#stretch-and-compress">Stretch and Compress</a></li>
+<li><a class="reference internal" href="#order">Order</a></li>
 </ul>
 </li>
 </ul>
