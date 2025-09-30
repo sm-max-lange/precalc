@@ -165,9 +165,9 @@ Formula:
 .. math::
 
     r^2 &= x^2 + y^2 \\
-    y &= sqrt(r^2-x^2) \\
-    y &= sqrt(a-x^2) \\
-    y &= sqrt(1-x^2)
+    y &= \sqrt(r^2-x^2) \\
+    y &= \sqrt(a-x^2) \\
+    y &= \sqrt(1-x^2)
 
 .. image:: images/basic-semi-circle.png
 
