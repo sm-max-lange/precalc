@@ -29,7 +29,7 @@ Formula:
 
     y = x^2
 
-.. image:: images/basic-quadratic.png
+.. image:: images/basic-sqrt.png
 
 
 .. math::
@@ -156,5 +156,79 @@ Formula:
 
     \textnormal{Domain: } (0, \infty) 
     \textnormal{Range: } (-\infty, \infty)
+
+
+.. rubric:: Semicircle
+
+Formula:
+
+.. math::
+
+    r^2 &= x^2 + y^2
+    y &= sqrt(r^2-x^2)
+    y &= sqrt(a-x^2)
+    y &= sqrt(1-x^2)
+
+.. image:: images/basic-semi-circle.png
+
+.. math::
+
+    \textnormal{Domain: } [-1, 1] 
+    \textnormal{Range: } [0, 1]
+
+
+
+.. rubric:: Square Reciprocal
+
+Formula:
+
+.. math::
+
+    y = \frac{1}{x^2}
+
+.. image:: images/basic-square-reciprocal.png
+
+.. math::
+
+    \textnormal{Domain: } (-\infty, 0) U (0, \infty) 
+    \textnormal{Range: } (0, \infty]
+
+
+.. rubric:: Semicircle
+
+Formula:
+
+.. math::
+
+    r^2 &= x^2 + y^2
+    y &= sqrt(r^2-x^2)
+    y &= sqrt(a-x^2)
+    y &= sqrt(1-x^2)
+
+.. image:: images/basic-semi-circle.png
+
+.. math::
+
+    \textnormal{Domain: } [-1, 1] 
+    \textnormal{Range: } [0, 1]
+
+
+.. rubric:: Hyperbola
+
+Formula:
+
+.. math::
+
+    c^2 &= x^2 - y^2
+    y &= sqrt(x^2-c^2)
+    y &= sqrt(x^2-a)
+
+.. image:: images/basic-hyperbola.png
+
+.. math::
+
+    \textnormal{Domain: } (-\infty, -1] U [1, \infty) 
+    \textnormal{Range: } (0, \infty)
+
 
 
