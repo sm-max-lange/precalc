@@ -164,9 +164,9 @@ Formula:
 
 .. math::
 
-    r^2 &= x^2 + y^2
-    y &= sqrt(r^2-x^2)
-    y &= sqrt(a-x^2)
+    r^2 &= x^2 + y^2 \\
+    y &= sqrt(r^2-x^2) \\
+    y &= sqrt(a-x^2) \\
     y &= sqrt(1-x^2)
 
 .. image:: images/basic-semi-circle.png
@@ -320,11 +320,6 @@ Stretch and Compress
     When a is negitive, use :math:`|a|` for stretching/compression
 
 
-.. rubric:: Examples
-
-
-
-
 Order
 -----------
 
@@ -338,5 +333,15 @@ Order maters!!!
 1. Vertical stretch or compression
 
 .. rubric:: Example
+
+.. math::
+
+    -2 f(3x -2) + 2
+
+1. Horizontal compress by a factor of :math:`\frac{1}{3}`
+1. Shift left 2
+1. Vertical stretch by factor of :math:`2`
+1. Reflect across x axis
+1. Shift up 2
 
 
