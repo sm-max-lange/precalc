@@ -1,0 +1,42 @@
+Polynomials and Power Functions (Chapter 11)
+==================================================
+
+Power Functions
+----------------
+
+.. rubric:: Power Function form
+
+
+.. math::
+
+    f(x) = kx^p
+
+
+k and p are constants.
+
+.. rubric:: Example of Power Function
+
+.. math::
+
+    f(x) = 2 \sqrt[3]{x}
+
+p: :math:`\frac{1}{3}`
+k: :math:`2`
+
+
+.. rubric:: Example of Not a Power Function
+
+.. math::
+
+    f(x) = (x-2)^2
+
+Not a power function due to multiple x values when expanded
+
+.. rubric:: Graphs of Power Functions
+
+The graph is based off of the k an p. The following is based off p is a non negative integer.
+
+.. drawio-image:: img3/power-functions.drawio
+
+
+
