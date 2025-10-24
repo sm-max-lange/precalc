@@ -31,6 +31,7 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.mathjax',
     'sphinx.ext.todo',
+    "sphinxcontrib.drawio"
 ]
 
 todo_include_todos = True
