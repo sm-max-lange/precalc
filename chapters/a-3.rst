@@ -37,10 +37,6 @@ Not a power function due to multiple x values when expanded
 | If f(x) is directly proportional to :math:`x^p` if :math:`f(x) = kx^p`
 | If f(x) is inverse proportional to :math:`x^p` if :math:`f(x) = \frac{k}{x^p}`
 
-.. todo::
-
-    Make some example questions
-
 .. rubric:: Graphs of Power Functions
 
 The graph is based off of the k an p. The following is based off p is a non negative integer.
@@ -240,6 +236,7 @@ Short Run
 | Use the denominator to calculate vertical asymptotes. 
 
 Example:
+
 .. math::
 
     f(x) = \frac{(x - 3)^2}{x-2}
@@ -266,6 +263,7 @@ Limits:
     \displaystyle{\lim_{x \to 2+}} f(x) = \infty \\
     \displaystyle{\lim_{x \to 3-}} f(x) = \infty \\
     \displaystyle{\lim_{x \to 3+}} f(x) = \infty \\
+
 
 
 
