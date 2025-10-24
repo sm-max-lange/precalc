@@ -45,7 +45,7 @@ Not a power function due to multiple x values when expanded
 
 The graph is based off of the k an p. The following is based off p is a non negative integer.
 
-.. drawio-image:: img3/power-functions-graph.drawio
+.. drawio-image:: img3/power-function-graph.drawio
 
 Limit Notations
 ------------------
@@ -181,4 +181,6 @@ To express the zeros in a formula know that :math:`a + bi` will become :math:`x-
 #. Long divide the equation by zero, result will be remaining zero
 
 
+Rational Functions
+--------------------
 

@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install sphinx
           pip install piccolo_theme
-          pip install sphinxcontrib-drawio
+          pip install sphinxcontrib-drawio==0.0.16
       - name: Build HTML
         run: |
           make clean
