@@ -255,7 +255,7 @@ Example:
 
 .. math::
 
-    \frac{3x}{(x-2)(x-3)^2
+    \frac{3x}{(x-2)(x-3)^2}
 
 
 Limits:
@@ -266,5 +266,6 @@ Limits:
     \displaystyle{\lim_{x \to 2+}} f(x) = \infty \\
     \displaystyle{\lim_{x \to 3-}} f(x) = \infty \\
     \displaystyle{\lim_{x \to 3+}} f(x) = \infty \\
+
 
 
