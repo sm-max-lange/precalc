@@ -8,6 +8,7 @@
     <title>Polynomials and Power Functions (Chapter 11) &#8212; Precalc Notes</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
+    <link rel="stylesheet" type="text/css" href="../_static/drawio.css" />
     <link rel="stylesheet" type="text/css" href="../_static/rubric.css?v=d2f86a81" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
@@ -163,6 +164,7 @@ k: <span class="math notranslate nohighlight">\(2\)</span></p>
 </div>
 <p class="rubric">Graphs of Power Functions</p>
 <p>The graph is based off of the k an p. The following is based off p is a non negative integer.</p>
+<img alt="chapters/img3/power-functions-graph.drawio" class="drawio" src="chapters/img3/power-functions-graph.drawio" />
 </section>
 <section id="limit-notations">
 <h2>Limit Notations<a class="headerlink" href="#limit-notations" title="Link to this heading">¶</a></h2>
@@ -211,6 +213,64 @@ k: <span class="math notranslate nohighlight">\(2\)</span></p>
 <p>Since <span class="math notranslate nohighlight">\(9x^3\)</span> has a domain of <span class="math notranslate nohighlight">\([-infty, \infty]\)</span>, the <span class="math notranslate nohighlight">\(9x^3 -4x^2 + 2\)</span> will have the same <strong>long run</strong> domain.</p>
 <img alt="../_images/long-run.png" src="../_images/long-run.png" />
 </section>
+<section id="multiplicity-effect-of-zeros">
+<h2>Multiplicity effect of Zeros<a class="headerlink" href="#multiplicity-effect-of-zeros" title="Link to this heading">¶</a></h2>
+<p>The factored form, the <strong>multiplicity</strong> is the degree that a zero is raised by. For example in <span class="math notranslate nohighlight">\((x - 2)^4\)</span>, the multiplicity will be 4.</p>
+<div class="line-block">
+<div class="line">If the multiplicity is one, the graph will pass straight though the x-axis.</div>
+<div class="line-block">
+<div class="line">If the multiplicity is odd (but not one), the graph will pass straight though the x-axis, but appear to be flattened.</div>
+<div class="line">If the multiplicity is even, the graph will bounce on the x-axis</div>
+</div>
+</div>
+<img alt="../_images/multiplicity-graph.svg" class="drawio" src="../_images/multiplicity-graph.svg" />
+</section>
+<section id="finding-zeros-for-degree-2-rzt">
+<h2>Finding Zeros for degree &gt; 2 (RZT)<a class="headerlink" href="#finding-zeros-for-degree-2-rzt" title="Link to this heading">¶</a></h2>
+<p><strong>RZT</strong> states that if a polynomial has integer coefficients, the every rational zero has the form <span class="math notranslate nohighlight">\(\mp \frac{Factor of Constant}{Factor of Leading Term}\)</span></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A function of n power will have at most n-1 zeros!</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To forget to try grouping!!!</p>
+</div>
+<ol class="arabic">
+<li><p>Factor completely</p></li>
+<li><p>Apply RZT to find all possible zeros</p></li>
+<li><p>Use a graphing calculator to find most likely zeros</p></li>
+<li><p>Use long division and divide the equation by the zero form. <span class="math notranslate nohighlight">\((x - k)\)</span> where k is the zero.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If the zero bounces, known that the multiplicity is two and you must divide twice.</p></li>
+<li><p>If the zero passes, known that the multiplicity is one and you must divide once.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Repeat until the equation is factorable or able to solve via quadratic formula.</p></li>
+</ol>
+<p class="rubric">Example</p>
+<img alt="../_images/rzt-example.png" src="../_images/rzt-example.png" />
+</section>
+<section id="complex-zeros">
+<h2>Complex Zeros<a class="headerlink" href="#complex-zeros" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">The <strong>conjugate pair theorem</strong> states that if <span class="math notranslate nohighlight">\(a + bi\)</span> is a zero, then <span class="math notranslate nohighlight">\(a - bi\)</span> is also a zero. For example, if <span class="math notranslate nohighlight">\(7 - 4i\)</span> is a zero, so is <span class="math notranslate nohighlight">\(7 + 4i\)</span></div>
+</div>
+<p>To express the zeros in a formula know that <span class="math notranslate nohighlight">\(a + bi\)</span> will become <span class="math notranslate nohighlight">\(x-(a+bi)\)</span>
+#. Multiply the two complex zeros</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[(x - (a + bi))(x - (a - bi))
+((x - a) + bi)((x - a) - bi)
+(x-a)^2 - (bi)^2
+x^2 -2ax + a^2 + b^2\]</div>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Long divide the equation by zero, result will be remaining zero</p></li>
+</ol>
+</section>
 </section>
 
 
@@ -231,6 +291,9 @@ k: <span class="math notranslate nohighlight">\(2\)</span></p>
 <li><a class="reference internal" href="#power-functions">Power Functions</a></li>
 <li><a class="reference internal" href="#limit-notations">Limit Notations</a></li>
 <li><a class="reference internal" href="#polynomials">Polynomials</a></li>
+<li><a class="reference internal" href="#multiplicity-effect-of-zeros">Multiplicity effect of Zeros</a></li>
+<li><a class="reference internal" href="#finding-zeros-for-degree-2-rzt">Finding Zeros for degree &gt; 2 (RZT)</a></li>
+<li><a class="reference internal" href="#complex-zeros">Complex Zeros</a></li>
 </ul>
 </li>
 </ul>

@@ -120,5 +120,65 @@ Since :math:`9x^3` has a domain of :math:`[-infty, \infty]`, the :math:`9x^3 -4x
 .. image:: img3/long-run.png
 
 
+Multiplicity effect of Zeros
+------------------------------
+
+The factored form, the **multiplicity** is the degree that a zero is raised by. For example in :math:`(x - 2)^4`, the multiplicity will be 4.
+
+| If the multiplicity is one, the graph will pass straight though the x-axis.
+|  If the multiplicity is odd (but not one), the graph will pass straight though the x-axis, but appear to be flattened.
+|  If the multiplicity is even, the graph will bounce on the x-axis
+
+.. drawio-image:: img3/multiplicity-graph.drawio
+
+
+
+Finding Zeros for degree > 2 (RZT)
+-----------------------------------
+
+
+**RZT** states that if a polynomial has integer coefficients, the every rational zero has the form :math:`\mp \frac{Factor of Constant}{Factor of Leading Term}`
+
+.. note::
+
+    A function of n power will have at most n-1 zeros!
+
+.. tip::
+
+    To forget to try grouping!!!
+
+#. Factor completely
+#. Apply RZT to find all possible zeros
+#. Use a graphing calculator to find most likely zeros
+#. Use long division and divide the equation by the zero form. :math:`(x - k)` where k is the zero.
+
+    * If the zero bounces, known that the multiplicity is two and you must divide twice.
+    * If the zero passes, known that the multiplicity is one and you must divide once.
+
+#. Repeat until the equation is factorable or able to solve via quadratic formula.
+
+.. rubric:: Example
+
+.. image:: img3/rzt-example.png
+
+
+
+Complex Zeros
+----------------------------
+
+| The **conjugate pair theorem** states that if :math:`a + bi` is a zero, then :math:`a - bi` is also a zero. For example, if :math:`7 - 4i` is a zero, so is :math:`7 + 4i`
+
+To express the zeros in a formula know that :math:`a + bi` will become :math:`x-(a+bi)`
+#. Multiply the two complex zeros
+
+    .. math::
+    
+        (x - (a + bi))(x - (a - bi))
+        ((x - a) + bi)((x - a) - bi)
+        (x-a)^2 - (bi)^2
+        x^2 -2ax + a^2 + b^2
+
+#. Long divide the equation by zero, result will be remaining zero
+
 
 
