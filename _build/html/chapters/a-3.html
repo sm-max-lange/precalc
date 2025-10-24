@@ -174,12 +174,14 @@ k: <span class="math notranslate nohighlight">\(2\)</span></p>
 <p>For example:</p>
 <div class="math notranslate nohighlight">
 \[\displaystyle{\lim_{x \to \infty}} f(x) = 9\]</div>
-<p>This states that x increases without bonds as f(x) approaches 9.</p>
-<p class="rubric">Left, Right Approach</p>
-<div class="admonition-todo admonition" id="id2">
-<p class="admonition-title">Todo</p>
-<p>Left right limit stuff</p>
-</div>
+<p>This states that x increases without bonds as f(x) approaches 9. This is a <strong>horizontal asymptote</strong>.</p>
+<p class="rubric">Approaching a number</p>
+<p>To express approaching from left use a minus sign:</p>
+<div class="math notranslate nohighlight">
+\[\displaystyle{\lim_{x \to 5-}} f(x) = \infty\]</div>
+<p>To express approaching from right, use a plus sign:</p>
+<div class="math notranslate nohighlight">
+\[\displaystyle{\lim_{x \to 5+}} f(x) = \infty\]</div>
 </section>
 <section id="polynomials">
 <h2>Polynomials<a class="headerlink" href="#polynomials" title="Link to this heading">¶</a></h2>
@@ -262,10 +264,10 @@ k: <span class="math notranslate nohighlight">\(2\)</span></p>
 #. Multiply the two complex zeros</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
-\[(x - (a + bi))(x - (a - bi))
-((x - a) + bi)((x - a) - bi)
-(x-a)^2 - (bi)^2
-x^2 -2ax + a^2 + b^2\]</div>
+\[\begin{split}(x - (a + bi))(x - (a - bi)) \\
+((x - a) + bi)((x - a) - bi) \\
+(x-a)^2 - (bi)^2 \\
+x^2 -2ax + a^2 + b^2 \\\end{split}\]</div>
 </div></blockquote>
 <ol class="arabic simple">
 <li><p>Long divide the equation by zero, result will be remaining zero</p></li>
@@ -273,6 +275,61 @@ x^2 -2ax + a^2 + b^2\]</div>
 </section>
 <section id="rational-functions">
 <h2>Rational Functions<a class="headerlink" href="#rational-functions" title="Link to this heading">¶</a></h2>
+<p>Rational Function Form:</p>
+<div class="math notranslate nohighlight">
+\[f(x) = \frac{p(x)}{q(x)}\]</div>
+<p>Both p and q are polynomials.</p>
+<p class="rubric">Examples of Rational Function</p>
+<div class="math notranslate nohighlight">
+\[f(x) = \frac{8x^2 + 3x}{7x}\]</div>
+<p>Since both the top and bottom are valid polynomials, this is a rational function.</p>
+<p class="rubric">Examples of non Rational Function</p>
+<div class="math notranslate nohighlight">
+\[f(x) = \frac{\sqrt{6x} + 3x}{9x^2 + 3}\]</div>
+<p>Since the top is not a valid polynomial, it is not a rational function.</p>
+</section>
+<section id="long-run">
+<h2>Long Run<a class="headerlink" href="#long-run" title="Link to this heading">¶</a></h2>
+<p>A rational function will behave like its leading term. Long run can be determined by <span class="math notranslate nohighlight">\(\frac{leading term of numerator}{leading term of denominator}\)</span>.</p>
+<p class="rubric">Rules of HA</p>
+<div class="line-block">
+<div class="line">n = numerator degree</div>
+<div class="line">d = denominator degree</div>
+</div>
+<div class="line-block">
+<div class="line">If <span class="math notranslate nohighlight">\(n &gt; d\)</span>, then calculate slant asymptote.</div>
+<div class="line">If <span class="math notranslate nohighlight">\(n == d\)</span>, the the horizontal asymptote is <span class="math notranslate nohighlight">\(y = \frac{leading term of numerator}{leading term of denominator}\)</span></div>
+<div class="line">If <span class="math notranslate nohighlight">\(n &lt; d&gt;\)</span>, the the horizontal asymptote is <span class="math notranslate nohighlight">\(0\)</span></div>
+</div>
+<p class="rubric">Slant Asymptote</p>
+<p>To calculate slant asymptote, divide the numerator by the denominator.</p>
+</section>
+<section id="short-run">
+<h2>Short Run<a class="headerlink" href="#short-run" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">use the numerator to calculate zeros</div>
+<div class="line">Use the denominator to calculate vertical asymptotes.</div>
+</div>
+<p>Example:
+.. math:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">=</span> \<span class="n">frac</span><span class="p">{(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">3</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span><span class="p">}{</span><span class="n">x</span><span class="o">-</span><span class="mi">2</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>In this rational function we can see a bouncing zero at (3, 0) and an asymptote at x = 2.</p>
+<p class="rubric">Find behavior near vertical asymptotes</p>
+<div class="line-block">
+<div class="line">If the multiplicity of the asymptote is even, both approaching from left and right will both be approaching the same value (either <span class="math notranslate nohighlight">\(- \infty\)</span> or  <span class="math notranslate nohighlight">\(\infty\)</span>)</div>
+<div class="line">If the multiplicity of the asymptote is odd, from left and right will both be approaching the opposite value (one will be <span class="math notranslate nohighlight">\(- \infty\)</span>, the other <span class="math notranslate nohighlight">\(\infty\)</span>)</div>
+</div>
+<p>Example:</p>
+<div class="math notranslate nohighlight">
+\[\frac{3x}{(x-2)(x-3)^2\]</div>
+<p>Limits:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\displaystyle{\lim_{x \to 2-}} f(x) = -\infty \\
+\displaystyle{\lim_{x \to 2+}} f(x) = \infty \\
+\displaystyle{\lim_{x \to 3-}} f(x) = \infty \\
+\displaystyle{\lim_{x \to 3+}} f(x) = \infty \\\end{split}\]</div>
 </section>
 </section>
 
@@ -298,6 +355,8 @@ x^2 -2ax + a^2 + b^2\]</div>
 <li><a class="reference internal" href="#finding-zeros-for-degree-2-rzt">Finding Zeros for degree &gt; 2 (RZT)</a></li>
 <li><a class="reference internal" href="#complex-zeros">Complex Zeros</a></li>
 <li><a class="reference internal" href="#rational-functions">Rational Functions</a></li>
+<li><a class="reference internal" href="#long-run">Long Run</a></li>
+<li><a class="reference internal" href="#short-run">Short Run</a></li>
 </ul>
 </li>
 </ul>

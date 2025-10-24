@@ -63,15 +63,23 @@ For example:
 
     \displaystyle{\lim_{x \to \infty}} f(x) = 9
 
-This states that x increases without bonds as f(x) approaches 9.
-
-.. rubric:: Left, Right Approach
-
-.. todo::
-
-    Left right limit stuff
+This states that x increases without bonds as f(x) approaches 9. This is a **horizontal asymptote**.
 
 
+.. rubric:: Approaching a number
+
+To express approaching from left use a minus sign:
+
+.. math::
+
+    \displaystyle{\lim_{x \to 5-}} f(x) = \infty
+
+
+To express approaching from right, use a plus sign:
+
+.. math::
+
+    \displaystyle{\lim_{x \to 5+}} f(x) = \infty
 
 Polynomials
 ------------------
@@ -173,14 +181,90 @@ To express the zeros in a formula know that :math:`a + bi` will become :math:`x-
 
     .. math::
     
-        (x - (a + bi))(x - (a - bi))
-        ((x - a) + bi)((x - a) - bi)
-        (x-a)^2 - (bi)^2
-        x^2 -2ax + a^2 + b^2
+        (x - (a + bi))(x - (a - bi)) \\
+        ((x - a) + bi)((x - a) - bi) \\
+        (x-a)^2 - (bi)^2 \\
+        x^2 -2ax + a^2 + b^2 \\
 
 #. Long divide the equation by zero, result will be remaining zero
 
 
 Rational Functions
 --------------------
+
+Rational Function Form:
+
+.. math::
+
+    f(x) = \frac{p(x)}{q(x)}
+
+Both p and q are polynomials.
+
+.. rubric:: Examples of Rational Function
+
+.. math::
+
+    f(x) = \frac{8x^2 + 3x}{7x}
+
+Since both the top and bottom are valid polynomials, this is a rational function.
+
+.. rubric:: Examples of non Rational Function
+
+.. math::
+
+    f(x) = \frac{\sqrt{6x} + 3x}{9x^2 + 3}
+
+Since the top is not a valid polynomial, it is not a rational function.
+
+Long Run
+---------
+
+A rational function will behave like its leading term. Long run can be determined by :math:`\frac{leading term of numerator}{leading term of denominator}`.
+
+.. rubric:: Rules of HA
+
+| n = numerator degree
+| d = denominator degree
+
+| If :math:`n > d`, then calculate slant asymptote.
+| If :math:`n == d`, the the horizontal asymptote is :math:`y = \frac{leading term of numerator}{leading term of denominator}`
+| If :math:`n < d>`, the the horizontal asymptote is :math:`0`
+
+.. rubric:: Slant Asymptote
+
+To calculate slant asymptote, divide the numerator by the denominator.
+
+Short Run
+---------
+| use the numerator to calculate zeros
+| Use the denominator to calculate vertical asymptotes. 
+
+Example:
+.. math::
+
+    f(x) = \frac{(x - 3)^2}{x-2}
+
+In this rational function we can see a bouncing zero at (3, 0) and an asymptote at x = 2.
+
+.. rubric:: Find behavior near vertical asymptotes
+
+| If the multiplicity of the asymptote is even, both approaching from left and right will both be approaching the same value (either :math:`- \infty` or  :math:`\infty`)
+| If the multiplicity of the asymptote is odd, from left and right will both be approaching the opposite value (one will be :math:`- \infty`, the other :math:`\infty`)
+
+Example:
+
+.. math::
+
+    \frac{3x}{(x-2)(x-3)^2
+
+
+Limits:
+
+.. math::
+
+    \displaystyle{\lim_{x \to 2-}} f(x) = -\infty \\
+    \displaystyle{\lim_{x \to 2+}} f(x) = \infty \\
+    \displaystyle{\lim_{x \to 3-}} f(x) = \infty \\
+    \displaystyle{\lim_{x \to 3+}} f(x) = \infty \\
+
 
