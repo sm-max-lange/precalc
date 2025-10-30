@@ -38,11 +38,20 @@ jobs:
               git commit -am "Automatic Sphinx build on $(date)"
               git push -f origin main
           fi
-        
+
+      - name: Build Latex
+        run: make latex
       
-      - uses: xu-cheng/texlive-action@v3
+      - name: Build PDF
+        uses: xu-cheng/latex-action@v4
         with:
-          run: make latexpdf
+          root_file: _build/latex/precalcnotes.tex
+
+      # - name: Install Latex
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y latexmk
+      #     sudo apt-get install tex-gyre texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra latexmk
         
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_ENV
