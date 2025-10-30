@@ -39,14 +39,10 @@ jobs:
               git push -f origin main
           fi
         
-      - name: Install Latex
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y latexmk
-          sudo apt-get install tex-gyre texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra latexmk
       
-      - name: Build PDF
-        run: make latexpdf
+      - uses: xu-cheng/texlive-action@v3
+        with:
+          run: make latexpdf
         
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_ENV
