@@ -1,0 +1,13 @@
+Exponential Functions (Chapter 4)
+======================================
+
+Basic Exponential
+-----------------------
+
+The basic exponential function takes the form of :math:`f(x) = ab^x`.
+
+
+
+.. todo::
+
+    Um.... lots!
