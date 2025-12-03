@@ -39,20 +39,15 @@ jobs:
               git push -f origin main
           fi
 
-      - name: Build Latex
-        run: make latex
+      - name: Install Latex
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y latexmk
+          sudo apt-get install tex-gyre texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra latexmk
       
-      - name: Build PDF
-        uses: xu-cheng/latex-action@v4
-        with:
-          root_file: _build/latex/precalcnotes.tex
-
-      # - name: Install Latex
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y latexmk
-      #     sudo apt-get install tex-gyre texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra latexmk
-        
+      - name: Build Latex
+        run: make latexpdf
+      
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_ENV
         

@@ -1,5 +1,51 @@
-Exponential Functions (Chapter 4)
-======================================
+Exponential Functions (Chapter 4) and Logs (Chapter 5)
+=========================================================
+
+Quick reference
+-------------------
+Exponential:
+* Calculator on FRQ
+* Exponential Form
+    * Basic :math:`y=ab^t` - Nominal == Basic
+        * Convert to Continuous: :math:`k = ln(b)`
+    * Continuous :math:`y=ae^{kt}`
+    * Compound :math:`y=a(1+\frac{r}{n})^{nt}`
+        * :math:`b+1r`
+* Convert from Basic to Continuous
+    * :math:`b = e^k`
+* Effective rate - :math:`b - 1`
+* Nominal Rate - :math:`r`
+* Growth v. Decay
+    * Growth >1
+    * Decay  >0 <1
+
+Logarithms:
+* Definition of log: :math:`y = log_{b}(x) -> b^y = x`
+* Know all properties
+    * :math:`log(ab) = log(a) + log(b)`
+    * :math:`log(\frac{a}{b}) = log(a) - log(b)`
+    * :math:`log(a^x) = x \cdot log(a)`
+    * :math:`log_{b}(b) = 1`
+* Change of base
+    * :math:`log_{b}(a) = \frac{log(a)}{log(b)}`
+* :math:`n -> \infty, (1+\frac{1}{n})^n -> e` 
+
+
+Domain and Range:
+* Know graphs
+    * Know domain/range
+    * Be able to transform
+        * Remember ABS!!!
+    * 
+
+* Be able to solve equations and inequality
+    * When working with log, check domains!!!
+* Be able to find equation in word problem
+* Be able to find equation given two points
+    * y-int = a
+    * Plug in, solve
+    * General shortcut: :math:`b^{x_{2} - x_{1} = \frac{y_{2}}{y_{1}}`
+
 
 Basic Exponential
 -----------------------
@@ -7,6 +53,16 @@ Basic Exponential
 The basic exponential function takes the form of :math:`f(x) = ab^x`.
 
 
+
+
+
+Scat!
+--------
+
+.. math::
+
+    log_{4}(x) &= \frac{1}{\frac{1}{log_{2}(x)+\frac{1}{log_{3}(x)} } \\
+    &= \frac{1}{\frac{1}{ \frac{log(x)}{log(2)} } + \frac{1}{ \frac{1}{log_{3}(x)} } } \\
 
 .. todo::
 
