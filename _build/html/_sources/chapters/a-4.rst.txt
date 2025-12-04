@@ -66,17 +66,18 @@ Basic Exponential
 To get the percent growth from the function, subtract b by one.
 
 For example:
+
 .. math::
 
     f(x) &= 5 \cdot 1.05^x \\
-    r  &= 5%
+    r  &= 5 \%
 
 Or for decay:
 
 .. math::
 
     f(x) &= 5 \cdot 0.75^x \\
-    r  &= -0.25%
+    r  &= -0.25 \%
 
 .. rubric:: Creating a formula
 
