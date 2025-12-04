@@ -141,11 +141,11 @@
 <h1>Exponential Functions (Chapter 4) and Logs (Chapter 5)<a class="headerlink" href="#exponential-functions-chapter-4-and-logs-chapter-5" title="Link to this heading">¶</a></h1>
 <section id="quick-reference">
 <h2>Quick reference<a class="headerlink" href="#quick-reference" title="Link to this heading">¶</a></h2>
-<p>Exponential:
-* Calculator on FRQ
-* Exponential Form</p>
-<blockquote>
-<div><ul class="simple">
+<p>Exponential:</p>
+<ul class="simple">
+<li><p>Calculator on FRQ</p></li>
+<li><dl class="simple">
+<dt>Exponential Form</dt><dd><ul>
 <li><dl class="simple">
 <dt>Basic <span class="math notranslate nohighlight">\(y=ab^t\)</span> - Nominal == Basic</dt><dd><ul>
 <li><p>Convert to Continuous: <span class="math notranslate nohighlight">\(k = ln(b)\)</span></p></li>
@@ -162,8 +162,9 @@
 </dl>
 </li>
 </ul>
-</div></blockquote>
-<ul class="simple">
+</dd>
+</dl>
+</li>
 <li><dl class="simple">
 <dt>Convert from Basic to Continuous</dt><dd><ul>
 <li><p><span class="math notranslate nohighlight">\(b = e^k\)</span></p></li>
@@ -182,18 +183,19 @@
 </dl>
 </li>
 </ul>
-<p>Logarithms:
-* Definition of log: <span class="math notranslate nohighlight">\(y = log_{b}(x) -&gt; b^y = x\)</span>
-* Know all properties</p>
-<blockquote>
-<div><ul class="simple">
+<p>Logarithms:</p>
+<ul class="simple">
+<li><p>Definition of log: <span class="math notranslate nohighlight">\(y = log_{b}(x) -&gt; b^y = x\)</span></p></li>
+<li><dl class="simple">
+<dt>Know all properties</dt><dd><ul>
 <li><p><span class="math notranslate nohighlight">\(log(ab) = log(a) + log(b)\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(log(\frac{a}{b}) = log(a) - log(b)\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(log(a^x) = x \cdot log(a)\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(log_{b}(b) = 1\)</span></p></li>
 </ul>
-</div></blockquote>
-<ul class="simple">
+</dd>
+</dl>
+</li>
 <li><dl class="simple">
 <dt>Change of base</dt><dd><ul>
 <li><p><span class="math notranslate nohighlight">\(log_{b}(a) = \frac{log(a)}{log(b)}\)</span></p></li>
@@ -231,7 +233,7 @@
 <dt>Be able to find equation given two points</dt><dd><ul>
 <li><p>y-int = a</p></li>
 <li><p>Plug in, solve</p></li>
-<li><p>General shortcut: <span class="math notranslate nohighlight">\(b^{x_{2} - x_{1} = \frac{y_{2}}{y_{1}}\)</span></p></li>
+<li><p>General shortcut: <span class="math notranslate nohighlight">\(b^{x_{2} - x_{1}} = \frac{y_{2}}{y_{1}}\)</span></p></li>
 </ul>
 </dd>
 </dl>
@@ -240,13 +242,39 @@
 </section>
 <section id="basic-exponential">
 <h2>Basic Exponential<a class="headerlink" href="#basic-exponential" title="Link to this heading">¶</a></h2>
-<p>The basic exponential function takes the form of <span class="math notranslate nohighlight">\(f(x) = ab^x\)</span>.</p>
+<div class="line-block">
+<div class="line">Exponential raise or fall by a constant percent</div>
+<div class="line">Exponential increases/decreases by a common multiplier as opposed to a common difference.</div>
+<div class="line">The basic exponential function takes the form of <span class="math notranslate nohighlight">\(f(x) = ab^x\)</span> where a is the constant while b is the rate.</div>
+</div>
+<p class="rubric">Properties of b</p>
+<div class="line-block">
+<div class="line">When <span class="math notranslate nohighlight">\(b &gt; 1\)</span>, the function is growing</div>
+<div class="line">When <span class="math notranslate nohighlight">\(0 &lt; b &lt; 1\)</span>, the function is decaying</div>
+</div>
+<p class="rubric">Calculating percent growth</p>
+<p>To get the percent growth from the function, subtract b by one.</p>
+<p>For example:
+.. math:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&amp;=</span> <span class="mi">5</span> \<span class="n">cdot</span> <span class="mf">1.05</span><span class="o">^</span><span class="n">x</span> \\
+<span class="n">r</span>  <span class="o">&amp;=</span> <span class="mi">5</span><span class="o">%</span>
+</pre></div>
+</div>
+<p>Or for decay:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}f(x) &amp;= 5 \cdot 0.75^x \\
+r  &amp;= -0.25%\end{split}\]</div>
+<p class="rubric">Creating a formula</p>
+<p>To create the formula, add one to the rate.</p>
+<p>Example:</p>
+<p>An initial amount of 50 decreases 9% per year</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}b &amp;= 1 + (-0.09) \\
+b &amp;= 0.91 \\
+f(x) &amp;= 50 \cdot 0.91^x\end{split}\]</div>
 </section>
 <section id="scat">
 <h2>Scat!<a class="headerlink" href="#scat" title="Link to this heading">¶</a></h2>
-<div class="math notranslate nohighlight">
-\[\begin{split}log_{4}(x) &amp;= \frac{1}{\frac{1}{log_{2}(x)+\frac{1}{log_{3}(x)} } \\
-&amp;= \frac{1}{\frac{1}{ \frac{log(x)}{log(2)} } + \frac{1}{ \frac{1}{log_{3}(x)} } } \\\end{split}\]</div>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
 <p>Um…. lots!</p>
