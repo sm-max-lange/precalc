@@ -164,7 +164,7 @@ Effective can be calculated from nominal using this formula:
     (1+\frac{r}{n})^n
 
 
-Euler Number 🛢️
+Euler Number
 ------------------
 
 Continuous growth uses the constant e
