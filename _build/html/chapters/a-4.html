@@ -143,7 +143,6 @@
 <h2>Quick reference<a class="headerlink" href="#quick-reference" title="Link to this heading">¶</a></h2>
 <p>Exponential:</p>
 <ul class="simple">
-<li><p>Calculator on FRQ</p></li>
 <li><dl class="simple">
 <dt>Exponential Form</dt><dd><ul>
 <li><dl class="simple">
@@ -217,7 +216,6 @@
 </dd>
 </dl>
 </li>
-<li></li>
 </ul>
 </div></blockquote>
 <ul class="simple">
@@ -271,12 +269,89 @@ r  &amp;= -0.25 \%\end{split}\]</div>
 b &amp;= 0.91 \\
 f(x) &amp;= 50 \cdot 0.91^x\end{split}\]</div>
 </section>
-<section id="scat">
-<h2>Scat!<a class="headerlink" href="#scat" title="Link to this heading">¶</a></h2>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Um…. lots!</p>
+<section id="finding-formula-from-two-points-basic">
+<h2>Finding Formula From Two Points (Basic)<a class="headerlink" href="#finding-formula-from-two-points-basic" title="Link to this heading">¶</a></h2>
+<p class="rubric">Finding Formula From Two Points using y-int</p>
+<p>When given y-int, simply plug that in to the b value and plug in the other points to solve.</p>
+<p>For example:</p>
+<img alt="../_images/y-int-basic-find.png" src="../_images/y-int-basic-find.png" />
+<div class="math notranslate nohighlight">
+\[\begin{split}y &amp;= 10 \cdot b^x \\
+20 &amp;= 10 \cdot b^3 \\
+2 &amp;= b^3 \\
+b &amp;= \sqrt[3]{2} \\
+y &amp;= 10 \cdot 2^{\frac{1}{3}^{x}} \\
+y &amp;= 10 \cdot 2^{\frac{x}{3}}\end{split}\]</div>
+<p class="rubric">Unitizing Shortcut formula</p>
+<p>Unitize this formula to calculate b
+.. math:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">b</span><span class="o">^</span><span class="p">{</span><span class="n">x_</span><span class="p">{</span><span class="mi">2</span><span class="p">}</span> <span class="o">-</span> <span class="n">x_</span><span class="p">{</span><span class="mi">1</span><span class="p">}}</span> <span class="o">=</span> \<span class="n">frac</span><span class="p">{</span><span class="n">y_</span><span class="p">{</span><span class="mi">2</span><span class="p">}}{</span><span class="n">y_</span><span class="p">{</span><span class="mi">1</span><span class="p">}}</span>
+</pre></div>
 </div>
+</section>
+<section id="graphing-exponential-functions">
+<h2>Graphing Exponential Functions<a class="headerlink" href="#graphing-exponential-functions" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Start with y-int</p></li>
+<li><p>Find points</p></li>
+<li><p>Connect points</p></li>
+</ol>
+<p class="rubric">Domain and Range</p>
+<div class="line-block">
+<div class="line">Domain: <span class="math notranslate nohighlight">\((-\infty, \infty)\)</span></div>
+<div class="line">Range: <span class="math notranslate nohighlight">\((0, \infty)\)</span></div>
+</div>
+<p class="rubric">Shifts</p>
+<div class="line-block">
+<div class="line">Shift up: <span class="math notranslate nohighlight">\(y = b^x + a\)</span></div>
+<div class="line">Shift down: <span class="math notranslate nohighlight">\(y = b^x - a\)</span></div>
+<div class="line">Shift left: <span class="math notranslate nohighlight">\(y = b^{x-a}\)</span></div>
+<div class="line">Shift right: <span class="math notranslate nohighlight">\(y = b^{x+a}\)</span></div>
+</div>
+</section>
+<section id="compound-interest">
+<h2>Compound Interest<a class="headerlink" href="#compound-interest" title="Link to this heading">¶</a></h2>
+<p class="rubric">Compound Interest Formula</p>
+<div class="math notranslate nohighlight">
+\[A = P (1 + \frac{r}{n})\]</div>
+<div class="line-block">
+<div class="line">P is the initial</div>
+<div class="line">r is nominal rate or the rate on paper. Also called annual percent rate (APR)</div>
+<div class="line">n is the number of compounds per year</div>
+</div>
+<p class="rubric">Nominal v. Effective</p>
+<div class="line-block">
+<div class="line">Nominal is what is given on paper.</div>
+<div class="line">Effective is the accrual percentage gained after a year</div>
+</div>
+<p>Effective can be calculated from nominal using this formula:</p>
+<div class="math notranslate nohighlight">
+\[(1+\frac{r}{n})^n\]</div>
+</section>
+<section id="euler-number">
+<h2>Euler Number 🛢️<a class="headerlink" href="#euler-number" title="Link to this heading">¶</a></h2>
+<p>Continuous growth uses the constant e</p>
+<p class="rubric">Continuous Growth Formula</p>
+<div class="math notranslate nohighlight">
+\[f(t) = e^{kt}\]</div>
+<p>k is a constant called that continuous rate.</p>
+<p class="rubric">Behavior of k</p>
+<div class="line-block">
+<div class="line">When k is negative, the function decreases</div>
+<div class="line">When k is positive, the function increases</div>
+</div>
+</section>
+<section id="log-basic-info">
+<h2>Log Basic Info<a class="headerlink" href="#log-basic-info" title="Link to this heading">¶</a></h2>
+<p>A log is the inverse of a exponential and thus the domain and range are flipped.</p>
+<p>The definition of log:</p>
+<p>If <span class="math notranslate nohighlight">\(y = log_{b}(x)\)</span> than <span class="math notranslate nohighlight">\(x = b^y\)</span></p>
+<p class="rubric">Log Properties</p>
+<p>Product rule: <span class="math notranslate nohighlight">\(log(ab) = log(a) + log(b)\)</span>
+Quotient rule: <span class="math notranslate nohighlight">\(log(\frac{a}{b}) = log(a) - log(b)\)</span>
+Reciprocal rule: <span class="math notranslate nohighlight">\(log(a^x) = x \cdot log(a)\)</span>
+Log of base: <span class="math notranslate nohighlight">\(log_{b}(b) = 1\)</span>
+Change of base: <span class="math notranslate nohighlight">\(log_{b}(a) = \frac{log(a)}{log(b)}\)</span></p>
 </section>
 </section>
 
@@ -297,7 +372,11 @@ f(x) &amp;= 50 \cdot 0.91^x\end{split}\]</div>
 <li><a class="reference internal" href="#">Exponential Functions (Chapter 4) and Logs (Chapter 5)</a><ul>
 <li><a class="reference internal" href="#quick-reference">Quick reference</a></li>
 <li><a class="reference internal" href="#basic-exponential">Basic Exponential</a></li>
-<li><a class="reference internal" href="#scat">Scat!</a></li>
+<li><a class="reference internal" href="#finding-formula-from-two-points-basic">Finding Formula From Two Points (Basic)</a></li>
+<li><a class="reference internal" href="#graphing-exponential-functions">Graphing Exponential Functions</a></li>
+<li><a class="reference internal" href="#compound-interest">Compound Interest</a></li>
+<li><a class="reference internal" href="#euler-number">Euler Number 🛢️</a></li>
+<li><a class="reference internal" href="#log-basic-info">Log Basic Info</a></li>
 </ul>
 </li>
 </ul>
