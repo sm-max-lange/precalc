@@ -4,6 +4,7 @@ Exponential Functions (Chapter 4) and Logs (Chapter 5)
 Quick reference
 -------------------
 Exponential:
+
 * Calculator on FRQ
 * Exponential Form
     * Basic :math:`y=ab^t` - Nominal == Basic
@@ -20,6 +21,7 @@ Exponential:
     * Decay  >0 <1
 
 Logarithms:
+
 * Definition of log: :math:`y = log_{b}(x) -> b^y = x`
 * Know all properties
     * :math:`log(ab) = log(a) + log(b)`
@@ -44,25 +46,56 @@ Domain and Range:
 * Be able to find equation given two points
     * y-int = a
     * Plug in, solve
-    * General shortcut: :math:`b^{x_{2} - x_{1} = \frac{y_{2}}{y_{1}}`
+    * General shortcut: :math:`b^{x_{2} - x_{1}} = \frac{y_{2}}{y_{1}}`
 
 
 Basic Exponential
 -----------------------
+| Exponential raise or fall by a constant percent
+| Exponential increases/decreases by a common multiplier as opposed to a common difference.
+| The basic exponential function takes the form of :math:`f(x) = ab^x` where a is the constant while b is the rate.
 
-The basic exponential function takes the form of :math:`f(x) = ab^x`.
+.. rubric:: Properties of b
+
+| When :math:`b > 1`, the function is growing
+| When :math:`0 < b < 1`, the function is decaying
 
 
+.. rubric:: Calculating percent growth
 
+To get the percent growth from the function, subtract b by one.
+
+For example:
+.. math::
+
+    f(x) &= 5 \cdot 1.05^x \\
+    r  &= 5%
+
+Or for decay:
+
+.. math::
+
+    f(x) &= 5 \cdot 0.75^x \\
+    r  &= -0.25%
+
+.. rubric:: Creating a formula
+
+To create the formula, add one to the rate.
+
+Example:
+
+An initial amount of 50 decreases 9% per year
+
+.. math::
+
+    b &= 1 + (-0.09) \\
+    b &= 0.91 \\
+    f(x) &= 50 \cdot 0.91^x
 
 
 Scat!
 --------
 
-.. math::
-
-    log_{4}(x) &= \frac{1}{\frac{1}{log_{2}(x)+\frac{1}{log_{3}(x)} } \\
-    &= \frac{1}{\frac{1}{ \frac{log(x)}{log(2)} } + \frac{1}{ \frac{1}{log_{3}(x)} } } \\
 
 .. todo::
 
