@@ -116,6 +116,7 @@ For example:
 .. rubric:: Unitizing Shortcut formula 
 
 Unitize this formula to calculate b
+
 .. math::
 
     b^{x_{2} - x_{1}} = \frac{y_{2}}{y_{1}}
