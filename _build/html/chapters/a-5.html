@@ -177,7 +177,7 @@
 <div class="line">Tangent is <span class="math notranslate nohighlight">\(\frac{sin(\theta)}{cos(\theta)}\)</span></div>
 </div>
 <p>Unit circle:</p>
-<img alt="chapters/imgt/unit-circle" src="chapters/imgt/unit-circle" />
+<img alt="../_images/unit-circle.png" src="../_images/unit-circle.png" />
 <p>Using reference angles, it is possible to find all quadrants based on quadrant I. For example both <span class="math notranslate nohighlight">\(30\deg\)</span> and <span class="math notranslate nohighlight">\(150\deg\)</span> have a reference angle of <span class="math notranslate nohighlight">\(30\deg\)</span> so the sine value is <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span></p>
 <div class="line-block">
 <div class="line">In quadrant I and quadrant II sine values are the same. In quadrant III and quadrant IV sine values are the negative.</div>
@@ -188,7 +188,7 @@
 <p>First the reference angle can be found.</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}210 - 180 &amp;= 30 \\
-sin(30) = |sin(210)| \\
+sin(30) &amp;= |sin(210)| \\
 |sin(210)|  &amp;= \frac{1}{2} \\\end{split}\]</div>
 <p>Since sine (y) is negative in quadrant III, <span class="math notranslate nohighlight">\(sin(210) = -\frac{1}{2}\)</span></p>
 <div class="admonition-todo admonition" id="id1">
@@ -201,17 +201,64 @@ sin(30) = |sin(210)| \\
 <p>Reciprocal functions are the reciprocal of the trigonometric functions.</p>
 <p>Reciprocal functions:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}secant &amp;= sec(\theta) = \frac{1}{sin(\theta) \\
+\[\begin{split}secant &amp;= sec(\theta) = \frac{1}{sin(\theta)} \\
 cosecant &amp;= cos(\theta) = \frac{1}{cos(\theta)} \\
 cotangent &amp;= cot(\theta) = \frac{1}{tan(\theta)}\end{split}\]</div>
 <p class="rubric">Reciprocal functions Algebra</p>
 <p>Trig functions can often be simplified.</p>
 <p>Example:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}csc(\theta) \cdot sin(theta) \\
-= \frac{1}{sin(\theta)} \cdot \frac{sin(\theta)}{1} \\
-= 1\end{split}\]</div>
+\[\begin{split}&amp; csc(\theta) \cdot sin(theta) \\
+&amp;= \frac{1}{sin(\theta)} \cdot \frac{sin(\theta)}{1} \\
+&amp;= 1\end{split}\]</div>
 <p>This simplifies down to 1</p>
+</section>
+<section id="pythagorean-identities">
+<h2>Pythagorean Identities<a class="headerlink" href="#pythagorean-identities" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(sin^(\theta) + cos^2(\theta) = 1\)</span></p></li>
+<li><dl class="simple">
+<dt><span class="math notranslate nohighlight">\(1 + tan^2(\theta) = sec^2(\theta)\)</span></dt><dd><ul>
+<li><p>Formed by dividing original by <span class="math notranslate nohighlight">\(cos^2(\theta)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><span class="math notranslate nohighlight">\(1 + cot^2(\theta) = csc^2(\theta)\)</span></dt><dd><ul>
+<li><p>Formed by dividing original by <span class="math notranslate nohighlight">\(sin^2(\theta)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p class="rubric">Example</p>
+<p>If <span class="math notranslate nohighlight">\(sin(\theta) = \frac{1}{3}, what is sec(\theta)\)</span>?</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}(\frac{1}{3})^2 + cos^2(\theta) &amp;= 1 \\
+\sqrt{1 - \frac{1}{9}} &amp;= cos(\theta) \\
+cos(\theta) &amp;= \frac{2 \sqrt{2}}{3} \\
+sec(\theta) &amp;= \frac{3}{2 \sqrt{2}} \\
+sec(\theta) &amp;= \frac{3 \sqrt{2}}{4}\end{split}\]</div>
+</section>
+<section id="periodic-functions">
+<h2>Periodic Functions<a class="headerlink" href="#periodic-functions" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">A <strong>periodic</strong> function values repeat on a constant interval.</div>
+<div class="line">The <strong>period of a function</strong> is the length of a function before it repeats.</div>
+</div>
+<p>Sine and cosine have a period of <span class="math notranslate nohighlight">\(2\pi\)</span> or <span class="math notranslate nohighlight">\(360 \deg\)</span>. This is one full rotation on the unit circle, after this the values repeat.</p>
+<p>The reciprocal functions have the same period as their non reciprocals.</p>
+<img alt="../_images/sine-cosine-periods.png" src="../_images/sine-cosine-periods.png" />
+</section>
+<section id="even-odd-symmetry">
+<h2>Even Odd Symmetry<a class="headerlink" href="#even-odd-symmetry" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>The cosine function is even meaning that <span class="math notranslate nohighlight">\(cos(-\theta) = cos(\theta)\)</span></p></li>
+<li><p>The sine function is odd meaning that <span class="math notranslate nohighlight">\(sin(-\theta) = -sin(\theta)\)</span></p></li>
+<li><p>The tangent function is odd meaning that <span class="math notranslate nohighlight">\(tan(-\theta) = -tan(\theta)\)</span></p></li>
+</ul>
+<p>This can be helpful when dealing with negative angles. Rather use even odd properties.</p>
 </section>
 </section>
 
@@ -232,6 +279,9 @@ cotangent &amp;= cot(\theta) = \frac{1}{tan(\theta)}\end{split}\]</div>
 <li><a class="reference internal" href="#">Trigonometry</a><ul>
 <li><a class="reference internal" href="#unit-circle">Unit Circle</a></li>
 <li><a class="reference internal" href="#reciprocal-functions">Reciprocal Functions</a></li>
+<li><a class="reference internal" href="#pythagorean-identities">Pythagorean Identities</a></li>
+<li><a class="reference internal" href="#periodic-functions">Periodic Functions</a></li>
+<li><a class="reference internal" href="#even-odd-symmetry">Even Odd Symmetry</a></li>
 </ul>
 </li>
 </ul>
