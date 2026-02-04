@@ -1,0 +1,92 @@
+Trigonometry
+==============
+
+Unit Circle
+------------
+
+A unit circle has a radius of 1.
+
+.. rubric:: Measuring Position on a Circle Using Angles
+
+* The positive x-axis forms the **terminal side**
+* Positive angeles are measured counter-clockwise from **terminal side**
+* Angles greater than one rotation (:math:`360\deg` or :math:`2\pi`) will warp around
+    * Two angeles that that start and end in the same place are **co-terminal**. 
+        * Ex. :math:`45\deg` is co-terminal to :math:`405\deg`
+* The **reference angle** is the shortest distance from the x-axis
+
+
+.. drawio-image:: imgt/basic-circle-reference.drawio
+
+
+This image shows two co-terminal angeles `45\deg` and :math:`405\deg` with a reference angle of `45\deg`.
+
+.. tip::
+
+    The denominator of a radian will give its reference angle 
+
+    :math:`\frac{11\pi}{6}` has a reference of :math:`\frac{\pi}{6}`
+
+.. rubric:: Finding sine, cosine, and tangent with the unit circle
+
+The unit circle has a radius of one. The means a right triangle can be formed and the 45/45/90 and 30/60/90 triangles can be used.
+
+| In a unit circle the x cords represent the cosine values
+| The y cords represent the sine values
+| Tangent is :math:`\frac{sin(\theta)}{cos(\theta)}`
+
+Unit circle:
+
+.. image:: imgt/unit-circle
+
+Using reference angles, it is possible to find all quadrants based on quadrant I. For example both :math:`30\deg` and :math:`150\deg` have a reference angle of :math:`30\deg` so the sine value is :math:`\frac{1}{2}`
+
+| In quadrant I and quadrant II sine values are the same. In quadrant III and quadrant IV sine values are the negative.
+| In quadrant I and quadrant IV cosine values are the same. In quadrant II and quadrant III cosine values are the negative.
+
+
+Example Question:
+
+What is :math:`sin(210)`?
+
+First the reference angle can be found. 
+
+.. math::
+
+    210 - 180 &= 30 \\
+    sin(30) = |sin(210)| \\
+    |sin(210)|  &= \frac{1}{2} \\
+    
+Since sine (y) is negative in quadrant III, :math:`sin(210) = -\frac{1}{2}` 
+
+
+.. todo:: Arc length
+
+Reciprocal Functions
+-------------------------
+
+Reciprocal functions are the reciprocal of the trigonometric functions.
+
+Reciprocal functions:
+
+.. math::
+
+    secant &= sec(\theta) = \frac{1}{sin(\theta) \\
+    cosecant &= cos(\theta) = \frac{1}{cos(\theta)} \\
+    cotangent &= cot(\theta) = \frac{1}{tan(\theta)}
+
+.. rubric:: Reciprocal functions Algebra
+
+Trig functions can often be simplified.
+
+Example:
+
+.. math::
+
+    csc(\theta) \cdot sin(theta) \\
+    = \frac{1}{sin(\theta)} \cdot \frac{sin(\theta)}{1} \\
+    = 1
+
+This simplifies down to 1
+
+
