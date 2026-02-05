@@ -198,7 +198,7 @@ Example:
 
 .. rubric:: Changing periods
 
-To change the period multiply the inside by :math:`\frac{2\pi}{period}` like :math:`y = cos(b \codt x)`
+To change the period multiply the inside by :math:`\frac{2\pi}{period}` like :math:`y = cos(b \cot x)`
 
 The period of a function will be :math:`\frac{2\pi}{b}`.
 
