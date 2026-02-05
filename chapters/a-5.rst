@@ -60,8 +60,6 @@ First the reference angle can be found.
 Since sine (y) is negative in quadrant III, :math:`sin(210) = -\frac{1}{2}` 
 
 
-.. todo:: Arc length
-
 Reciprocal Functions
 -------------------------
 
@@ -92,7 +90,7 @@ This simplifies down to 1
 Pythagorean Identities
 -----------------------------
 
-* :math:`sin^(\theta) + cos^2(\theta) = 1`
+* :math:`sin^2(\theta) + cos^2(\theta) = 1`
 * :math:`1 + tan^2(\theta) = sec^2(\theta)`
     * Formed by dividing original by :math:`cos^2(\theta)`
 * :math:`1 + cot^2(\theta) = csc^2(\theta)`
@@ -100,7 +98,7 @@ Pythagorean Identities
 
 .. rubric:: Example
 
-If :math:`sin(\theta) = \frac{1}{3}, what is sec(\theta)`?
+If :math:`sin(\theta) = \frac{1}{3}`, :math:`what is sec(\theta)`?
 
 .. math::
 
@@ -113,6 +111,7 @@ If :math:`sin(\theta) = \frac{1}{3}, what is sec(\theta)`?
 
 Periodic Functions
 -------------------
+
 | A **periodic** function values repeat on a constant interval.
 | The **period of a function** is the length of a function before it repeats.
 
@@ -132,4 +131,146 @@ Even Odd Symmetry
 
 This can be helpful when dealing with negative angles. Rather use even odd properties.
 
+Parent Graphs
+---------------
+
+| A **midline** is the middle of the wave and equaldistant from the maximum and minimum.
+| **Amplitude** is a positive number of how far the maximum/minimum is from the midline.
+
+.. rubric:: Sine
+
+.. math::
+
+    y = sin(x)
+
+
+* Sine has a midline at :math:`y=0` and has an amplitude of 1.
+* Sine has a period of :math:`2 \pi`
+* Sine starts at the midline and increases til maximum then decreases to minimum passing though midline and increases to midline.
+
+.. image:: sine.png
+
+.. rubric:: Cosine
+
+.. math::
+
+    y = sin(x)
+
+
+* Cosine has a midline at :math:`y=0` and has an amplitude of 1.
+* Cosine has a period of :math:`2 \pi`
+* Cosine starts at the maximum and decreases to minimum passing though midline and increases to maximum passing though midline.
+
+.. image:: cosine.png
+
+Transformations
+---------------------
+
+.. rubric:: Shifting midline
+
+To shift the midline upward, shift the function upward. 
+
+:math:`y = sin(x) + k` will shift the function up by k and make the midline :math:`y = k`
+
+Example:
+
+.. image:: imgt/vshift-cosine.png
+
+.. rubric:: Changing Amplitude
+
+To change to the amplitude, multiply the outside of the function by the new amplitude.
+
+:math:`y = A cos(x)` will have an amplitude of A
+
+Example:
+
+.. image:: imgt/amp-sine.png
+
+.. rubric:: Shifting Horizontal
+
+To shift horizontally add to the inside of a function
+
+:math:`y = cos(x + h)` will have shifted the function left h.
+
+Example:
+
+.. image:: imgt/hshift-cosine.png
+
+.. rubric:: Changing periods
+
+To change the period multiply the inside by :math:`\frac{2\pi}{period}` like :math:`y = cos(b \codt x)`
+
+The period of a function will be :math:`\frac{2\pi}{b}`.
+
+Example:
+
+
+.. image:: period-cosine.png
+
+
+.. note::
+
+    When determining period and shift always factor to isolate the x.
+
+    For example: Change :math:`sin(5x + 5)` to :math:`sin(s(x + 1))` to find a horizontal shift of 1 and a period of :math:`\frac{2\pi}{5}`
+
+Inverse Trig Functions
+--------------------------
+
+| :math:`sin^{-1}(\theta)` range: :math:`[-\frac{\pi}{2}, \frac{\pi}{2}]`
+| :math:`cos^{-1}(\theta)` range: :math:`[0, \pi]`
+
+All output will be in this range.
+
+.. rubric:: Finding other values
+
+By finding the reference angle, you can find another value.
+
+By finding a co-terminal angle, you can find an angle within range of the question
+
+.. note::
+
+    Finding other angles is only applicable for :math:`sin(x) = y`, not for :math:`sin^{-1}(y) = x`
+
+.. rubric:: Inverse Equality
+
+.. math::
+
+    cos^{-1}(cos(x)) &= x \quad \text{Always} \\
+    cos(cos^{-1}(x)) &= x \quad \text{Sometimes} 
+
+Always do the later to check!!!
+
+
+Law of Sines and Cosines
+--------------------------
+
+Law of Sines:
+
+.. math::
+
+    \frac{sin(A)}{a} = \frac{sin(B)}{b} = \frac{sin(C)}{c}
+
+Law of Cosines:
+
+.. math::
+
+    c^2 = a^2 + b^2 - 2ab \cdot cos(C)
+
+SSA
+----------------------
+
+Use the formula to find the hight:
+
+.. math::
+
+    h = sin(A) * b
+
+.. image:: four-case.png
+
+.. rubric:: Two Triangles
+
+#. Use law of sines to find possible C
+#. Since they are supplementary, :math:`180 - C` will get an alt C angle
+#. Solve the triangle for both angles
 
