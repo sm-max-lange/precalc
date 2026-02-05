@@ -191,10 +191,6 @@
 sin(30) &amp;= |sin(210)| \\
 |sin(210)|  &amp;= \frac{1}{2} \\\end{split}\]</div>
 <p>Since sine (y) is negative in quadrant III, <span class="math notranslate nohighlight">\(sin(210) = -\frac{1}{2}\)</span></p>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Arc length</p>
-</div>
 </section>
 <section id="reciprocal-functions">
 <h2>Reciprocal Functions<a class="headerlink" href="#reciprocal-functions" title="Link to this heading">¶</a></h2>
@@ -216,7 +212,7 @@ cotangent &amp;= cot(\theta) = \frac{1}{tan(\theta)}\end{split}\]</div>
 <section id="pythagorean-identities">
 <h2>Pythagorean Identities<a class="headerlink" href="#pythagorean-identities" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(sin^(\theta) + cos^2(\theta) = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(sin^2(\theta) + cos^2(\theta) = 1\)</span></p></li>
 <li><dl class="simple">
 <dt><span class="math notranslate nohighlight">\(1 + tan^2(\theta) = sec^2(\theta)\)</span></dt><dd><ul>
 <li><p>Formed by dividing original by <span class="math notranslate nohighlight">\(cos^2(\theta)\)</span></p></li>
@@ -233,7 +229,7 @@ cotangent &amp;= cot(\theta) = \frac{1}{tan(\theta)}\end{split}\]</div>
 </li>
 </ul>
 <p class="rubric">Example</p>
-<p>If <span class="math notranslate nohighlight">\(sin(\theta) = \frac{1}{3}, what is sec(\theta)\)</span>?</p>
+<p>If <span class="math notranslate nohighlight">\(sin(\theta) = \frac{1}{3}\)</span>, <span class="math notranslate nohighlight">\(what is sec(\theta)\)</span>?</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}(\frac{1}{3})^2 + cos^2(\theta) &amp;= 1 \\
 \sqrt{1 - \frac{1}{9}} &amp;= cos(\theta) \\
@@ -260,6 +256,101 @@ sec(\theta) &amp;= \frac{3 \sqrt{2}}{4}\end{split}\]</div>
 </ul>
 <p>This can be helpful when dealing with negative angles. Rather use even odd properties.</p>
 </section>
+<section id="parent-graphs">
+<h2>Parent Graphs<a class="headerlink" href="#parent-graphs" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">A <strong>midline</strong> is the middle of the wave and equaldistant from the maximum and minimum.</div>
+<div class="line"><strong>Amplitude</strong> is a positive number of how far the maximum/minimum is from the midline.</div>
+</div>
+<p class="rubric">Sine</p>
+<div class="math notranslate nohighlight">
+\[y = sin(x)\]</div>
+<ul class="simple">
+<li><p>Sine has a midline at <span class="math notranslate nohighlight">\(y=0\)</span> and has an amplitude of 1.</p></li>
+<li><p>Sine has a period of <span class="math notranslate nohighlight">\(2 \pi\)</span></p></li>
+<li><p>Sine starts at the midline and increases til maximum then decreases to minimum passing though midline and increases to midline.</p></li>
+</ul>
+<img alt="chapters/sine.png" src="chapters/sine.png" />
+<p class="rubric">Cosine</p>
+<div class="math notranslate nohighlight">
+\[y = sin(x)\]</div>
+<ul class="simple">
+<li><p>Cosine has a midline at <span class="math notranslate nohighlight">\(y=0\)</span> and has an amplitude of 1.</p></li>
+<li><p>Cosine has a period of <span class="math notranslate nohighlight">\(2 \pi\)</span></p></li>
+<li><p>Cosine starts at the maximum and decreases to minimum passing though midline and increases to maximum passing though midline.</p></li>
+</ul>
+<img alt="chapters/cosine.png" src="chapters/cosine.png" />
+</section>
+<section id="transformations">
+<h2>Transformations<a class="headerlink" href="#transformations" title="Link to this heading">¶</a></h2>
+<p class="rubric">Shifting midline</p>
+<p>To shift the midline upward, shift the function upward.</p>
+<p><span class="math notranslate nohighlight">\(y = sin(x) + k\)</span> will shift the function up by k and make the midline <span class="math notranslate nohighlight">\(y = k\)</span></p>
+<p>Example:</p>
+<img alt="../_images/vshift-cosine.png" src="../_images/vshift-cosine.png" />
+<p class="rubric">Changing Amplitude</p>
+<p>To change to the amplitude, multiply the outside of the function by the new amplitude.</p>
+<p><span class="math notranslate nohighlight">\(y = A cos(x)\)</span> will have an amplitude of A</p>
+<p>Example:</p>
+<img alt="../_images/amp-sine.png" src="../_images/amp-sine.png" />
+<p class="rubric">Shifting Horizontal</p>
+<p>To shift horizontally add to the inside of a function</p>
+<p><span class="math notranslate nohighlight">\(y = cos(x + h)\)</span> will have shifted the function left h.</p>
+<p>Example:</p>
+<img alt="../_images/hshift-cosine.png" src="../_images/hshift-cosine.png" />
+<p class="rubric">Changing periods</p>
+<p>To change the period multiply the inside by <span class="math notranslate nohighlight">\(\frac{2\pi}{period}\)</span> like <span class="math notranslate nohighlight">\(y = cos(b \codt x)\)</span></p>
+<p>The period of a function will be <span class="math notranslate nohighlight">\(\frac{2\pi}{b}\)</span>.</p>
+<p>Example:</p>
+<img alt="chapters/period-cosine.png" src="chapters/period-cosine.png" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When determining period and shift always factor to isolate the x.</p>
+<p>For example: Change <span class="math notranslate nohighlight">\(sin(5x + 5)\)</span> to <span class="math notranslate nohighlight">\(sin(s(x + 1))\)</span> to find a horizontal shift of 1 and a period of <span class="math notranslate nohighlight">\(\frac{2\pi}{5}\)</span></p>
+</div>
+</section>
+<section id="inverse-trig-functions">
+<h2>Inverse Trig Functions<a class="headerlink" href="#inverse-trig-functions" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line"><span class="math notranslate nohighlight">\(sin^{-1}(\theta)\)</span> range: <span class="math notranslate nohighlight">\([-\frac{\pi}{2}, \frac{\pi}{2}]\)</span></div>
+<div class="line"><span class="math notranslate nohighlight">\(cos^{-1}(\theta)\)</span> range: <span class="math notranslate nohighlight">\([0, \pi]\)</span></div>
+</div>
+<p>All output will be in this range.</p>
+<p class="rubric">Finding other values</p>
+<p>By finding the reference angle, you can find another value.</p>
+<p>By finding a co-terminal angle, you can find an angle within range of the question</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Finding other angles is only applicable for <span class="math notranslate nohighlight">\(sin(x) = y\)</span>, not for <span class="math notranslate nohighlight">\(sin^{-1}(y) = x\)</span></p>
+</div>
+<p class="rubric">Inverse Equality</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}cos^{-1}(cos(x)) &amp;= x \quad \text{Always} \\
+cos(cos^{-1}(x)) &amp;= x \quad \text{Sometimes}\end{split}\]</div>
+<p>Always do the later to check!!!</p>
+</section>
+<section id="law-of-sines-and-cosines">
+<h2>Law of Sines and Cosines<a class="headerlink" href="#law-of-sines-and-cosines" title="Link to this heading">¶</a></h2>
+<p>Law of Sines:</p>
+<div class="math notranslate nohighlight">
+\[\frac{sin(A)}{a} = \frac{sin(B)}{b} = \frac{sin(C)}{c}\]</div>
+<p>Law of Cosines:</p>
+<div class="math notranslate nohighlight">
+\[c^2 = a^2 + b^2 - 2ab \cdot cos(C)\]</div>
+</section>
+<section id="ssa">
+<h2>SSA<a class="headerlink" href="#ssa" title="Link to this heading">¶</a></h2>
+<p>Use the formula to find the hight:</p>
+<div class="math notranslate nohighlight">
+\[h = sin(A) * b\]</div>
+<img alt="chapters/four-case.png" src="chapters/four-case.png" />
+<p class="rubric">Two Triangles</p>
+<ol class="arabic simple">
+<li><p>Use law of sines to find possible C</p></li>
+<li><p>Since they are supplementary, <span class="math notranslate nohighlight">\(180 - C\)</span> will get an alt C angle</p></li>
+<li><p>Solve the triangle for both angles</p></li>
+</ol>
+</section>
 </section>
 
 
@@ -282,6 +373,11 @@ sec(\theta) &amp;= \frac{3 \sqrt{2}}{4}\end{split}\]</div>
 <li><a class="reference internal" href="#pythagorean-identities">Pythagorean Identities</a></li>
 <li><a class="reference internal" href="#periodic-functions">Periodic Functions</a></li>
 <li><a class="reference internal" href="#even-odd-symmetry">Even Odd Symmetry</a></li>
+<li><a class="reference internal" href="#parent-graphs">Parent Graphs</a></li>
+<li><a class="reference internal" href="#transformations">Transformations</a></li>
+<li><a class="reference internal" href="#inverse-trig-functions">Inverse Trig Functions</a></li>
+<li><a class="reference internal" href="#law-of-sines-and-cosines">Law of Sines and Cosines</a></li>
+<li><a class="reference internal" href="#ssa">SSA</a></li>
 </ul>
 </li>
 </ul>
