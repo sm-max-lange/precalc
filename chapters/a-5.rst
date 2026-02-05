@@ -148,7 +148,7 @@ Parent Graphs
 * Sine has a period of :math:`2 \pi`
 * Sine starts at the midline and increases til maximum then decreases to minimum passing though midline and increases to midline.
 
-.. image:: sine.png
+.. image:: imgt/sine.png
 
 .. rubric:: Cosine
 
@@ -161,7 +161,7 @@ Parent Graphs
 * Cosine has a period of :math:`2 \pi`
 * Cosine starts at the maximum and decreases to minimum passing though midline and increases to maximum passing though midline.
 
-.. image:: cosine.png
+.. image:: imgt/cosine.png
 
 Transformations
 ---------------------
@@ -205,7 +205,7 @@ The period of a function will be :math:`\frac{2\pi}{b}`.
 Example:
 
 
-.. image:: period-cosine.png
+.. image:: imgt/period-cosine.png
 
 
 .. note::
