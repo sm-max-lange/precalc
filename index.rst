@@ -24,6 +24,13 @@ Created by Maximilian Lange
    :glob:
    :hidden:
 
-   chapters/*
+   chapters/a-*
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Semester 2:
+   :glob:
+   :hidden:
+
+   chapters/b-*
