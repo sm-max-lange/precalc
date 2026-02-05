@@ -266,7 +266,7 @@ Use the formula to find the hight:
 
     h = sin(A) * b
 
-.. image:: four-case.png
+.. image:: imgt/four-case.png
 
 .. rubric:: Two Triangles
 
