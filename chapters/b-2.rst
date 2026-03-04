@@ -6,6 +6,8 @@ On Exam
 
 * Proofs
 
+Areas to work on:
+* 
 .. math::
 
     \frac{cot(x)sin^2(x)}{cos(2x)} = \frac{tan(x)}{1-tan^2(x)} \\
@@ -16,5 +18,16 @@ On Exam
     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos(2x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)cos(2x)} \\
 
+
+Conversions:
+
+:math:`r=\sqrt{x^2+y^2}`
+:math:`\theta=tan^{-1}(\frac{y}{x})`
+:math:`x=r cos{\theta}`
+:math:`y=r sin{\theta}`
+
+#. Convert :math:`cos{\theta}` to :math:`\frac{x}{r}`
+#. Eliminate r
+#. 
