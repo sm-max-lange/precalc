@@ -8,13 +8,13 @@ On Exam
 
 .. math::
 
-    /frac{cot(x)sin^2(x)}{cos(2x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    /frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    /frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
-    /frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos(2x)} \\
+    \frac{cot(x)sin^2(x)}{cos(2x)} = \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos(2x)} \\
 
