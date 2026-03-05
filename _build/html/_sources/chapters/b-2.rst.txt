@@ -116,10 +116,10 @@ First calculate values
 
 .. math::
 
-    r &= \sqrt{3^2 + 4^2}
-    r &= 5
-    \theta &= tan^{-1}(\frac{4}{3})
-    \theta &\approx 0.927
+    r &= \sqrt{3^2 + 4^2} \\
+    r &= 5 \\
+    \theta &= tan^{-1}(\frac{4}{3}) \\
+    \theta & \approx 0.927
 
 Next determine the quadrant that the point is in and update everything to match. In this case, r can just be made negative.
 
@@ -152,7 +152,7 @@ Example (Polar to Cartesian):
     r &= 2sin(\theta) \\
     r &= 2 \frac{y}{r} \\
     r^2 &= 2y \\
-    x^2+y^2 = 2y
+    x^2+y^2 &= 2y
 
 Example (Cartesian to Polar)
 
