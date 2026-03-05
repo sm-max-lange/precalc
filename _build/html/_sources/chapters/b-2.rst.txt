@@ -31,3 +31,55 @@ Conversions:
 #. Convert :math:`cos{\theta}` to :math:`\frac{x}{r}`
 #. Eliminate r
 #. 
+
+
+Double Angle Identities
+-------------------------
+
+* :math:`sin(2\theta) = 2 sin(\theta) cos(\theta)`
+* Cosine
+    * :math:`cos(2\theta) = cos^2(\theta) - sin^2(\theta)`
+    * :math:`cos(2\theta) = 1 - 2 sin^2(\theta)`
+    * :math:`cos(2\theta) = 1 - 2 cos^2(\theta)`
+* :math:`tan(2\theta) = \frac{sin(2\theta)}{cos(2\theta)} = \frac{2 tan(\theta)}{1 - tan^2(\theta)}`
+
+.. rubric:: Proving Identities
+
+.. todo::
+
+    Prove!!!
+
+
+Sum and Difference Identities
+--------------------------------
+Sum and difference formulas can be used to find angles not defined by the unit circle.
+
+* Cosine
+    * :math:`cos(A+B) = cos(A)cos(B) - sin(A)sin(B)`
+    * :math:`cos(A-B) = cos(A)cos(B) + sin(A)sin(B)`
+* Sine
+    * :math:`sin(A+B) = sin(A)cos(B) + cos(A)sin(B)`
+    * :math:`sin(A-B) = sin(A)cos(B) - cos(A)sin(B)`
+
+.. tip::
+
+    | Cosine == Contradiction
+    | Sine == Similar
+
+.. rubric:: Example
+
+Find :math:`cos(105\deg)`
+
+.. math::
+
+    105 &= 60 + 45 \\
+    cos(105) &= cos(60) \cdot cos(45) - sin(60) \cdot sin(45) \\
+    cos(105) &= \frac{1}{2} \cdot \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} \\
+    cos(105) &= \frac{\sqrt{2} - \sqrt{6}}{4} \\
+
+.. todo::
+
+    Power Reductions
+
+
+
