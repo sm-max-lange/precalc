@@ -172,5 +172,44 @@ Example (Cartesian to Polar)
     r sin(\theta) &= r^2 cos^2(\theta) \\
     r &= \frac{sin(\theta)}{cos^2(\theta)}
 
-    
+
+Vectors
+----------
+
+| Vectors have a start point, magnitude, and direction
+| Compleat form of vectors: :math:`\langle x,y \rangle`
+| ij form: :math:`a i + b j` where i represent :math:`\langle 1,0 \rangle` and j shows  :math:`\langle 0,1 \rangle`
+
+.. rubric:: Magnitude
+
+    Use distance formula. Use notation :math:`||v||`
+
+.. rubric:: Scalers
+
+When multiplying a vector by one number, multiply all items.
+
+:math:`5 \cdot \langle 2,5 \rangle = \langle 10,25 \rangle`
+
+.. rubric:: Adding vectors
+
+When adding vectors, add both values
+
+:math:`\langle 3,4 \rangle \cdot \langle 2,5 \rangle = \langle 5, 9 \rangle`
+
+.. note::
+
+    Adding a number to a vector results in NaN
+
+.. rubric:: Dot Product
+
+Used when multiplying two vectors. Results in number.
+
+* Simple way to calculate: :math:`\langle a,b \rangle \cdot \langle c,d \rangle = ac + bd`
+* More complex way to calculate: :math:`\vec{a} * \vec{b} = ||a|| \cdot ||b|| \cdot cos(\theta)`
+* Use the methods together when trying to find the angle between
+
+The dot product provides information about the angle between two vectors.
+
+If the dot product is positive, it is an acute angle. If it is negative it gives obtuse. If it is 0, they are orthogonal
+
 
