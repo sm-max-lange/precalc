@@ -144,33 +144,6 @@
             
   <section id="vectors-and-polar-coordinates">
 <h1>Vectors and Polar Coordinates<a class="headerlink" href="#vectors-and-polar-coordinates" title="Link to this heading">¶</a></h1>
-<section id="on-exam">
-<h2>On Exam<a class="headerlink" href="#on-exam" title="Link to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>Proofs</p></li>
-</ul>
-<p>Areas to work on:</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\frac{cot(x)sin^2(x)}{cos(2x)} &amp;= \frac{tan(x)}{1-tan^2(x)} \\
-\frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} &amp;= \frac{tan(x)}{1-tan^2(x)} \\
-\frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} &amp;= \frac{tan(x)}{1-tan^2(x)} \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{tan(x)}{1-tan^2(x)} \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
-\frac{cos(x) sin(x)}{1 - 2sin^2(x)} &amp;= \frac{sin(x)}{cos(x)cos(2x)}\end{split}\]</div>
-<p>Conversions:</p>
-<p><span class="math notranslate nohighlight">\(r=\sqrt{x^2+y^2}\)</span>
-<span class="math notranslate nohighlight">\(\theta=tan^{-1}(\frac{y}{x})\)</span>
-<span class="math notranslate nohighlight">\(x=r cos{\theta}\)</span>
-<span class="math notranslate nohighlight">\(y=r sin{\theta}\)</span></p>
-<ol class="arabic simple">
-<li><p>Convert <span class="math notranslate nohighlight">\(cos{\theta}\)</span> to <span class="math notranslate nohighlight">\(\frac{x}{r}\)</span></p></li>
-</ol>
-<p>#. Eliminate r
-#.</p>
-</section>
 <section id="double-angle-identities">
 <h2>Double Angle Identities<a class="headerlink" href="#double-angle-identities" title="Link to this heading">¶</a></h2>
 <ul class="simple">
@@ -187,10 +160,6 @@
 <li><p><span class="math notranslate nohighlight">\(tan(2\theta) = \frac{sin(2\theta)}{cos(2\theta)} = \frac{2 tan(\theta)}{1 - tan^2(\theta)}\)</span></p></li>
 </ul>
 <p class="rubric">Proving Identities</p>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Prove!!!</p>
-</div>
 </section>
 <section id="sum-and-difference-identities">
 <h2>Sum and Difference Identities<a class="headerlink" href="#sum-and-difference-identities" title="Link to this heading">¶</a></h2>
@@ -227,10 +196,6 @@
 cos(105) &amp;= cos(60) \cdot cos(45) - sin(60) \cdot sin(45) \\
 cos(105) &amp;= \frac{1}{2} \cdot \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} \\
 cos(105) &amp;= \frac{\sqrt{2} - \sqrt{6}}{4} \\\end{split}\]</div>
-<div class="admonition-todo admonition" id="id2">
-<p class="admonition-title">Todo</p>
-<p>Power Reductions</p>
-</div>
 </section>
 <section id="polar-coordinates">
 <h2>Polar Coordinates<a class="headerlink" href="#polar-coordinates" title="Link to this heading">¶</a></h2>
@@ -262,14 +227,12 @@ y &amp;= \frac{3}{2}\end{split}\]</div>
 </ul>
 <p>Example:</p>
 <p>Convert <span class="math notranslate nohighlight">\((-3, -4)\)</span> to polar coordinates (radian)</p>
-<p>First calculate values
-.. math:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">r</span> <span class="o">&amp;=</span> \<span class="n">sqrt</span><span class="p">{</span><span class="mi">3</span><span class="o">^</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">4</span><span class="o">^</span><span class="mi">2</span><span class="p">}</span>
-<span class="n">r</span> <span class="o">&amp;=</span> <span class="mi">5</span>
-\<span class="n">theta</span> <span class="o">&amp;=</span> <span class="n">tan</span><span class="o">^</span><span class="p">{</span><span class="o">-</span><span class="mi">1</span><span class="p">}(</span>\<span class="n">frac</span><span class="p">{</span><span class="mi">4</span><span class="p">}{</span><span class="mi">3</span><span class="p">})</span>
-\<span class="n">theta</span> <span class="o">&amp;</span>\<span class="n">approx</span> <span class="mf">0.927</span>
-</pre></div>
-</div>
+<p>First calculate values</p>
+<div class="math notranslate nohighlight">
+\[r &amp;= \sqrt{3^2 + 4^2}
+r &amp;= 5
+\theta &amp;= tan^{-1}(\frac{4}{3})
+\theta &amp;\approx 0.927\]</div>
 <p>Next determine the quadrant that the point is in and update everything to match. In this case, r can just be made negative.</p>
 <p>Solution: <span class="math notranslate nohighlight">\((-5, 0.927)\)</span></p>
 </section>
@@ -339,7 +302,6 @@ r &amp;= \frac{sin(\theta)}{cos^2(\theta)}\end{split}\]</div>
             <div class="page_toc">
                 <ul>
 <li><a class="reference internal" href="#">Vectors and Polar Coordinates</a><ul>
-<li><a class="reference internal" href="#on-exam">On Exam</a></li>
 <li><a class="reference internal" href="#double-angle-identities">Double Angle Identities</a></li>
 <li><a class="reference internal" href="#sum-and-difference-identities">Sum and Difference Identities</a></li>
 <li><a class="reference internal" href="#polar-coordinates">Polar Coordinates</a></li>

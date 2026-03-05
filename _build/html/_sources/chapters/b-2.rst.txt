@@ -1,37 +1,33 @@
 Vectors and Polar Coordinates
 ==============================
 
-On Exam
----------
+.. * Proofs
 
-* Proofs
-
-Areas to work on:
+.. Areas to work on:
 
 
-.. math::
 
-    \frac{cot(x)sin^2(x)}{cos(2x)} &= \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)cos(2x)}
+..     \frac{cot(x)sin^2(x)}{cos(2x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+..     \frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+..     \frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
+..     \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)cos(2x)}
 
 
-Conversions:
+.. Conversions:
 
-:math:`r=\sqrt{x^2+y^2}`
-:math:`\theta=tan^{-1}(\frac{y}{x})`
-:math:`x=r cos{\theta}`
-:math:`y=r sin{\theta}`
+.. :math:`r=\sqrt{x^2+y^2}`
+.. :math:`\theta=tan^{-1}(\frac{y}{x})`
+.. :math:`x=r cos{\theta}`
+.. :math:`y=r sin{\theta}`
 
-#. Convert :math:`cos{\theta}` to :math:`\frac{x}{r}`
-#. Eliminate r
-#. 
+.. #. Convert :math:`cos{\theta}` to :math:`\frac{x}{r}`
+.. #. Eliminate r
+.. #. 
 
 
 Double Angle Identities
@@ -45,10 +41,6 @@ Double Angle Identities
 * :math:`tan(2\theta) = \frac{sin(2\theta)}{cos(2\theta)} = \frac{2 tan(\theta)}{1 - tan^2(\theta)}`
 
 .. rubric:: Proving Identities
-
-.. todo::
-
-    Prove!!!
 
 
 Sum and Difference Identities
@@ -77,10 +69,6 @@ Find :math:`cos(105\deg)`
     cos(105) &= cos(60) \cdot cos(45) - sin(60) \cdot sin(45) \\
     cos(105) &= \frac{1}{2} \cdot \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} \\
     cos(105) &= \frac{\sqrt{2} - \sqrt{6}}{4} \\
-
-.. todo::
-
-    Power Reductions
 
 Polar Coordinates
 ---------------------
@@ -125,6 +113,7 @@ Convert :math:`(-3, -4)` to polar coordinates (radian)
 
 
 First calculate values
+
 .. math::
 
     r &= \sqrt{3^2 + 4^2}
