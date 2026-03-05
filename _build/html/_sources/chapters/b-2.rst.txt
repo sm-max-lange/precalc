@@ -1,4 +1,4 @@
-Vectors and Polar Cordinates
+Vectors and Polar Coordinates
 ==============================
 
 On Exam
@@ -10,15 +10,15 @@ Areas to work on:
 * 
 .. math::
 
-    \frac{cot(x)sin^2(x)}{cos(2x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{tan(x)}{1-tan^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
-    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} = \frac{sin(x)}{cos(x)cos(2x)} \\
+    \frac{cot(x)sin^2(x)}{cos(2x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cot(x)sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{\frac{cos(x)}{sin(x)} sin^2(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{tan(x)}{1-tan^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{1- \frac{sin^2(x)}{cos^2(x)}} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{ \frac{sin(x)}{cos(x)} }{ \frac{cos^2(x) - sin^2(x)}{cos^2(x)} } \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)} \cdot \frac{cos^2(x)}{cos^2(x) - sin^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)}{cos^2(x) - sin^2(x)} \\
+    \frac{cos(x) sin(x)}{1 - 2sin^2(x)} &= \frac{sin(x)}{cos(x)cos(2x)}
 
 
 Conversions:
@@ -81,5 +81,96 @@ Find :math:`cos(105\deg)`
 
     Power Reductions
 
+Polar Coordinates
+---------------------
 
+.. rubric:: Important Terms
+
+| A **pole** is a point on a polar coordinate system that represents the origin or center
+| A **polar axis** is a ray originating the pole 
+
+.. rubric:: Graphing a polar coordinate
+
+Polar coordinates are written as :math:`(r, \theta)`. In order to graph, use the angle from the polar axis and go r rings. In r is negative, it will go backward.
+
+.. drawio-image:: imgb2/polar-point.drawio
+
+.. rubric:: Converting Polar to Cartesian
+
+* :math:`x = r cos(\theta)`
+* :math:`y = r sin (\theta)`
+
+Example:
+
+Convert :math:`(3, \frac{\pi}{6})` to Cartesian coordinates.
+
+.. math::
+
+    x &= 3 \cdot cos(\frac{\pi}{6}) \\
+    x &= \frac{3 \sqrt{3}}{2} \\
+    y &= 3 \cdot sin(\frac{\pi}{6}) \\
+    y &= \frac{3}{2}
+
+The solution is :math:`(\frac{3 \sqrt{3}}{2}, \frac{3}{2})`
+
+.. rubric:: Converting Cartesian to Polar
+
+* :math:`r = \sqrt{x^2+y^2}`
+* :math:`\theta = tan^{-1}(\frac{y}{x})`
+
+Example:
+
+Convert :math:`(-3, -4)` to polar coordinates (radian)
+
+
+First calculate values
+.. math::
+
+    r &= \sqrt{3^2 + 4^2}
+    r &= 5
+    \theta &= tan^{-1}(\frac{4}{3})
+    \theta &\approx 0.927
+
+Next determine the quadrant that the point is in and update everything to match. In this case, r can just be made negative.
+
+Solution: :math:`(-5, 0.927)`
+
+
+Polar Equations
+------------------
+
+Polar equations start with r=
+
+A equation of r = k will result in a circle of radius k.
+
+A normal polar equation will be :math:`r = \theta` or  :math:`r = sos(\theta)`
+
+If a polar equation involves sin, it sits on the y-axis, with cosine makes it sit on the x-axis.
+
+.. rubric:: Types of Graphs Seen
+
+.. image:: imgb2/types-of-polar.png
+
+.. rubric:: Converting
+
+To convert apply the same properties than converting points.
+
+Example (Polar to Cartesian):
+
+.. math::
+
+    r &= 2sin(\theta) \\
+    r &= 2 \frac{y}{r} \\
+    r^2 &= 2y \\
+    x^2+y^2 = 2y
+
+Example (Cartesian to Polar)
+
+.. math::
+
+    y &= x^2 \\
+    r sin(\theta) &= r^2 cos^2(\theta) \\
+    r &= \frac{sin(\theta)}{cos^2(\theta)}
+
+    
 
