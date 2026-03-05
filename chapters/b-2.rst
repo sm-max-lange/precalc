@@ -7,7 +7,8 @@ On Exam
 * Proofs
 
 Areas to work on:
-* 
+
+
 .. math::
 
     \frac{cot(x)sin^2(x)}{cos(2x)} &= \frac{tan(x)}{1-tan^2(x)} \\
