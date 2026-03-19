@@ -1,0 +1,83 @@
+Conic Sections and Parametric Equations
+=========================================
+
+Parametric Equations
+-----------------------
+
+A parametric equation has a third vabiable t
+
+.. todo::
+
+    Eh
+
+
+Ellipses
+----------
+
+An ellipses follows the following equation:
+
+
+.. math::
+
+    \frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1
+
+or
+
+.. math::
+
+    \frac{(y - k)^2}{b^2} + \frac{(x - h)^2}{a^2}  = 1
+
+
+When the larger number is under the y, the graph is vertical. When the larger number is under x, it is horizontal.
+
+
+.. note::
+
+    The larger value will be the a while the smaller will be b
+
+.. rubric:: c
+
+Formula for c: :math:`c^2 = a^2 - b^2`
+
+.. rubric:: Variables to Points
+
+| Center: :math:`(h, k)`
+| Vertices: :math:`(h \pm a, k)` or :math:`(h, k \pm a)` depending on direction
+| Foci: :math:`(h \pm c, k)` or :math:`(h, k \pm c)` depending on direction (Matches Vertices Operations)
+| Covertices: :math:`(h, k \pm b)` or :math:`(h \pm b, k)` depending on direction
+
+
+
+.. rubric:: Horizontal Example
+
+.. image:: imgb3/h_ellipse.png
+
+The following shows a graph of :math:`\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1` where :math:`a > b`
+
+.. rubric:: Circle
+
+When :math:`a == b`, then it is a circle commonly written as:
+
+.. math::
+
+    (x - h)^2 + (y - k)^2 = r^2
+
+.. rubric:: Degenerates
+
+.. math::
+
+    \frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1
+
+The equation above produces a point at :math:`(h, k)`
+
+.. math::
+
+    \frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = -n
+
+The equation above has no solution.
+
+
+Hyperbolas
+--------------
+
+
