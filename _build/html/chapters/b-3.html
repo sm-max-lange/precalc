@@ -147,11 +147,28 @@
 <h1>Conic Sections and Parametric Equations<a class="headerlink" href="#conic-sections-and-parametric-equations" title="Link to this heading">¶</a></h1>
 <section id="parametric-equations">
 <h2>Parametric Equations<a class="headerlink" href="#parametric-equations" title="Link to this heading">¶</a></h2>
-<p>A parametric equation has a third vabiable t</p>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Eh</p>
-</div>
+<p>A parametric equation has a third variable t as the definition of time.</p>
+<p class="rubric">Example</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}x = 5t \\
+y = t^3\end{split}\]</div>
+<p>x and y are both a function of t</p>
+<p class="rubric">Removing t</p>
+<p>t can be removed via substitution by isolating t.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}x = 6t \\
+y = 3t^2 \\
+t = \frac{x}{6} \\
+y = 3 (\frac{x}{6})^2 \\
+y = \frac{3x^2}{36}\end{split}\]</div>
+<p class="rubric">Adding t</p>
+<p>t can be added via substitution by isolating a xy value</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}y = 4x^2 \\
+t = 3x \\
+x = \frac{t}{3} \\
+y = 4(\frac{t}{3})^2
+y = \frac{4t^2}{9}\end{split}\]</div>
 </section>
 <section id="ellipses">
 <h2>Ellipses<a class="headerlink" href="#ellipses" title="Link to this heading">¶</a></h2>
@@ -160,7 +177,7 @@
 \[\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1\]</div>
 <p>or</p>
 <div class="math notranslate nohighlight">
-\[\frac{(y - k)^2}{b^2} + \frac{(x - h)^2}{a^2}  = 1\]</div>
+\[\frac{(y - k)^2}{a^2} + \frac{(x - h)^2}{b^2}  = 1\]</div>
 <p>When the larger number is under the y, the graph is vertical. When the larger number is under x, it is horizontal.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -192,6 +209,54 @@
 </section>
 <section id="hyperbolas">
 <h2>Hyperbolas<a class="headerlink" href="#hyperbolas" title="Link to this heading">¶</a></h2>
+<p>A hyperbola follows the following equation:</p>
+<div class="math notranslate nohighlight">
+\[\frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1\]</div>
+<p>or</p>
+<div class="math notranslate nohighlight">
+\[\frac{(y - k)^2}{a^2} + \frac{(x - h)^2}{b^2}  = 1\]</div>
+<p class="rubric">Asymptotes</p>
+<div class="math notranslate nohighlight">
+\[y - k = \pm \frac{under y}{under x} (x - h)\]</div>
+<p class="rubric">c</p>
+<p>Formula for c: <span class="math notranslate nohighlight">\(c^2 = a^2 + b^2\)</span></p>
+<p class="rubric">Variables to Points</p>
+<div class="line-block">
+<div class="line">Center: <span class="math notranslate nohighlight">\((h, k)\)</span></div>
+<div class="line">Vertices: <span class="math notranslate nohighlight">\((h \pm a, k)\)</span> or <span class="math notranslate nohighlight">\((h, k \pm a)\)</span> depending on direction</div>
+<div class="line">Foci: <span class="math notranslate nohighlight">\((h \pm c, k)\)</span> or <span class="math notranslate nohighlight">\((h, k \pm c)\)</span> depending on direction (Matches Vertices Operations)</div>
+<div class="line">Covertices: <span class="math notranslate nohighlight">\((h, k \pm b)\)</span> or <span class="math notranslate nohighlight">\((h \pm b, k)\)</span> depending on direction</div>
+</div>
+<p class="rubric">Horizontal Example</p>
+<img alt="../_images/h_hyperbola.png" src="../_images/h_hyperbola.png" />
+<p>The following shows a graph of <span class="math notranslate nohighlight">\(\frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1\)</span></p>
+<p class="rubric">Vertical Example</p>
+<img alt="../_images/v_hyperbola.png" src="../_images/v_hyperbola.png" />
+<p>The following shows a graph of <span class="math notranslate nohighlight">\(\frac{(y - k)^2}{a^2} + \frac{(x - h)^2}{b^2}  = 1\)</span></p>
+<p class="rubric">Degenerates</p>
+<img alt="../_images/hyper_degenerate.png" src="../_images/hyper_degenerate.png" />
+<div class="math notranslate nohighlight">
+\[\frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 0\]</div>
+<p>Results in only the asymptote lines</p>
+</section>
+<section id="parabolas">
+<h2>Parabolas<a class="headerlink" href="#parabolas" title="Link to this heading">¶</a></h2>
+<p>A parabola follows the following equation:</p>
+<div class="math notranslate nohighlight">
+\[(x - h)^2 = 4a(y - k)\]</div>
+<p>or</p>
+<div class="math notranslate nohighlight">
+\[(y - h)^2 = 4a(x - k)\]</div>
+<p class="rubric">Variables to Graph</p>
+<div class="line-block">
+<div class="line">Vertex: <span class="math notranslate nohighlight">\((h, k)\)</span></div>
+<div class="line">Focus:  <span class="math notranslate nohighlight">\((h, k + a)\)</span> or <span class="math notranslate nohighlight">\((h + a, k)\)</span> depending on direction</div>
+<div class="line">Directrix: <span class="math notranslate nohighlight">\(y = -a\)</span> or <span class="math notranslate nohighlight">\(x = -a\)</span>  depending on direction</div>
+</div>
+<p class="rubric">Horizontal Example</p>
+<img alt="../_images/h_par.png" src="../_images/h_par.png" />
+<p class="rubric">Vertical Example</p>
+<img alt="../_images/h_par.png" src="../_images/h_par.png" />
 </section>
 </section>
 
@@ -213,6 +278,7 @@
 <li><a class="reference internal" href="#parametric-equations">Parametric Equations</a></li>
 <li><a class="reference internal" href="#ellipses">Ellipses</a></li>
 <li><a class="reference internal" href="#hyperbolas">Hyperbolas</a></li>
+<li><a class="reference internal" href="#parabolas">Parabolas</a></li>
 </ul>
 </li>
 </ul>
